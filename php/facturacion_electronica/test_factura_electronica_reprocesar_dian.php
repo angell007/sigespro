@@ -51,7 +51,7 @@ if ($id_factura) {
 
     // Solo se procesa la factura si existe y cumple con la condición
     if (contarCodigo($tipo, $factura['Codigo']) == '1') {
-        $fe = new FacturaElectronica($tipo, $factura["Id_Factura"], $factura["Id_Resolucion"]);
+        $fe = new FacturaElectronica($tipo, $factura["Id_Factura"], $factura["Id_Resolucion"], ['activo' => true]);
         $datos = $fe->GenerarFactura();
         if (isset($datos['Estado']) && $datos['Estado'] === 'Exito') {
             $resp['titulo'] = 'Reproceso Exitoso';
@@ -82,31 +82,31 @@ if ($id_factura) {
     exit;
 }
 
-    if (count($facturas) == 0) {
-        echo json_encode([
-            'respuesta' => [],
-            'mensaje' => 'No hay facturas para reprocesar con los filtros enviados.',
-        ]);
-        return;
+if (count($facturas) == 0) {
+    echo json_encode([
+        'respuesta' => [],
+        'mensaje' => 'No hay facturas para reprocesar con los filtros enviados.',
+    ]);
+    return;
+}
+
+$resp = [];
+foreach ($facturas as $factura) {
+    $fe = new FacturaElectronica($tipo, $factura["Id_Factura"], $factura["Id_Resolucion"]);
+    $datos = $fe->GenerarFactura();
+    if (!empty($datos['Datos']['Cufe']) && ($datos['Estado'] ?? '') === 'Exito') {
+        actualizarFacturaElectronica($tipo, $factura["Id_Factura"], $datos);
+    } elseif (debeMarcarProcesadaPorError($datos)) {
+        marcarFacturaProcesadaPorError($tipo, $factura["Id_Factura"]);
     }
+    $resp['respuesta'][] = $datos;
+}
 
-    $resp = [];
-    foreach ($facturas as $factura) {
-        $fe = new FacturaElectronica($tipo, $factura["Id_Factura"], $factura["Id_Resolucion"]);
-        $datos = $fe->GenerarFactura();
-        if (!empty($datos['Datos']['Cufe']) && ($datos['Estado'] ?? '') === 'Exito') {
-            actualizarFacturaElectronica($tipo, $factura["Id_Factura"], $datos);
-        } elseif (debeMarcarProcesadaPorError($datos)) {
-            marcarFacturaProcesadaPorError($tipo, $factura["Id_Factura"]);
-        }
-        $resp['respuesta'][] = $datos;
-    }
+echo json_encode($resp);
 
-    echo json_encode($resp);
-
-    function GetFacturas($tipo, $res, $fecha_inicio, $id_factura)
-    {
-        $cond_res = (isset($res) ? "AND Id_Resolucion IN (" . $res . ")" : '');
+function GetFacturas($tipo, $res, $fecha_inicio, $id_factura)
+{
+    $cond_res = (isset($res) ? "AND Id_Resolucion IN (" . $res . ")" : '');
     $cond_id = (isset($id_factura) ? "AND Id_" . $tipo . " = " . intval($id_factura) : '');
     $campo_fecha = GetCampoFechaFactura($tipo);
     $cond_fecha = (isset($fecha_inicio) ? "AND " . $campo_fecha . " >= '" . $fecha_inicio . "'" : '');
@@ -120,93 +120,93 @@ if ($id_factura) {
         1=1 $cond_procesada $cond_res $cond_id $cond_fecha
         ORDER BY " . $campo_fecha . " ASC";
 
-        $oCon = new consulta();
-        $oCon->setQuery($query);
-        $oCon->setTipo("Multiple");
-        $lista = $oCon->getData();
-        unset($oCon);
+    $oCon = new consulta();
+    $oCon->setQuery($query);
+    $oCon->setTipo("Multiple");
+    $lista = $oCon->getData();
+    unset($oCon);
 
-        return $lista;
+    return $lista;
+}
+
+function GetCampoFechaFactura($tipo)
+{
+    if ($tipo === 'Factura_Venta') {
+        return 'Fecha';
     }
+    return 'Fecha_Documento';
+}
 
-    function GetCampoFechaFactura($tipo)
-    {
-        if ($tipo === 'Factura_Venta') {
-            return 'Fecha';
-        }
-        return 'Fecha_Documento';
+function actualizarFacturaElectronica($tipo, $id_factura, $datos)
+{
+    if (!$tipo || !$id_factura) {
+        return;
     }
-
-    function actualizarFacturaElectronica($tipo, $id_factura, $datos)
-    {
-        if (!$tipo || !$id_factura) {
-            return;
-        }
-        if (($datos['Estado'] ?? '') !== 'Exito') {
-            return;
-        }
-        $cufe = $datos['Datos']['Cufe'] ?? ($datos['Cufe'] ?? null);
-        if (!$cufe) {
-            return;
-        }
-        $qr = $datos['Datos']['Qr'] ?? ($datos['Qr'] ?? null);
-        if (!$qr && $cufe) {
-            $url = 'https://catalogo-vpfe.dian.gov.co/Document/ShowDocumentToPublic/' . $cufe;
-            $qr = generarqrFE($url);
-        }
-        $oItem = new complex($tipo, "Id_" . $tipo, $id_factura);
-        $oItem->Cufe = $cufe;
-        if ($qr) {
-            $oItem->Codigo_Qr = $qr;
-        }
-        $oItem->Procesada = 'true';
-        $oItem->save();
-        unset($oItem);
+    if (($datos['Estado'] ?? '') !== 'Exito') {
+        return;
     }
+    $cufe = $datos['Datos']['Cufe'] ?? ($datos['Cufe'] ?? null);
+    if (!$cufe) {
+        return;
+    }
+    $qr = $datos['Datos']['Qr'] ?? ($datos['Qr'] ?? null);
+    if (!$qr && $cufe) {
+        $url = 'https://catalogo-vpfe.dian.gov.co/Document/ShowDocumentToPublic/' . $cufe;
+        $qr = generarqrFE($url);
+    }
+    $oItem = new complex($tipo, "Id_" . $tipo, $id_factura);
+    $oItem->Cufe = $cufe;
+    if ($qr) {
+        $oItem->Codigo_Qr = $qr;
+    }
+    $oItem->Procesada = 'true';
+    $oItem->save();
+    unset($oItem);
+}
 
-    function debeMarcarProcesadaPorError($datos)
-    {
-        $mensajes = [];
-        if (isset($datos['ErrorMessage'])) {
-            $errorMessage = $datos['ErrorMessage'];
-            if (is_array($errorMessage) && isset($errorMessage['string'])) {
-                $mensajes = array_merge($mensajes, (array) $errorMessage['string']);
-            } elseif (is_string($errorMessage)) {
-                $mensajes[] = $errorMessage;
-            }
+function debeMarcarProcesadaPorError($datos)
+{
+    $mensajes = [];
+    if (isset($datos['ErrorMessage'])) {
+        $errorMessage = $datos['ErrorMessage'];
+        if (is_array($errorMessage) && isset($errorMessage['string'])) {
+            $mensajes = array_merge($mensajes, (array) $errorMessage['string']);
+        } elseif (is_string($errorMessage)) {
+            $mensajes[] = $errorMessage;
         }
-        if (!$mensajes) {
-            return false;
-        }
-        $objetivos = [
-            'Regla: FAJ43b, Notificación: Nombre informado No corresponde al registrado en el RUT con respecto al Nit suminstrado.',
-            'Regla: RUT01, Notificación: La validación del estado del RUT próximamente estará disponible.',
-        ];
-        foreach ($mensajes as $mensaje) {
-            if (in_array(trim((string) $mensaje), $objetivos, true)) {
-                return true;
-            }
-        }
+    }
+    if (!$mensajes) {
         return false;
     }
-
-    function marcarFacturaProcesadaPorError($tipo, $id_factura)
-    {
-        if (!$tipo || !$id_factura) {
-            return;
+    $objetivos = [
+        'Regla: FAJ43b, Notificación: Nombre informado No corresponde al registrado en el RUT con respecto al Nit suminstrado.',
+        'Regla: RUT01, Notificación: La validación del estado del RUT próximamente estará disponible.',
+    ];
+    foreach ($mensajes as $mensaje) {
+        if (in_array(trim((string) $mensaje), $objetivos, true)) {
+            return true;
         }
-        $oItem = new complex($tipo, "Id_" . $tipo, $id_factura);
-        $oItem->Procesada = 'true';
-        $oItem->save();
-        unset($oItem);
     }
+    return false;
+}
 
-    function contarCodigo($tipo, $codigo)
-    {
-        $query = "SELECT COUNT(Id_$tipo) as Total 
+function marcarFacturaProcesadaPorError($tipo, $id_factura)
+{
+    if (!$tipo || !$id_factura) {
+        return;
+    }
+    $oItem = new complex($tipo, "Id_" . $tipo, $id_factura);
+    $oItem->Procesada = 'true';
+    $oItem->save();
+    unset($oItem);
+}
+
+function contarCodigo($tipo, $codigo)
+{
+    $query = "SELECT COUNT(Id_$tipo) as Total 
      FROM $tipo 
      WHERE Codigo LIKE '$codigo'";
-        $oCon = new consulta();
-        $oCon->setQuery($query);
-        return $oCon->getData()['Total'];
-    }
+    $oCon = new consulta();
+    $oCon->setQuery($query);
+    return $oCon->getData()['Total'];
+}
