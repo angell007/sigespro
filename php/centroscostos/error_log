@@ -1,0 +1,39 @@
+[19-Jan-2019 17:23:23 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/o3qy25y1d4cd/public_html/php/centroscostos/centro_costos_listar.php on line 30
+[19-Jan-2019 12:24:00 America/Bogota] PHP Warning:  Missing argument 2 for ArmarArbolCentros(), called in /home/o3qy25y1d4cd/public_html/php/centroscostos/centro_costos_listar.php on line 24 and defined in /home/o3qy25y1d4cd/public_html/php/centroscostos/centro_costos_listar.php on line 28
+[19-Jan-2019 20:59:10 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/o3qy25y1d4cd/public_html/php/centroscostos/centro_costos_listar.php on line 60
+[19-Jan-2019 20:59:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/o3qy25y1d4cd/public_html/php/centroscostos/centro_costos_listar.php on line 60
+[19-Jan-2019 17:42:49 America/Bogota] PHP Fatal error:  Call to undefined method consulta::setTipp() in /home/o3qy25y1d4cd/public_html/php/centroscostos/listar_valores_tipo_centro.php on line 27
+[19-Jan-2019 18:01:13 America/Bogota] PHP Warning:  Illegal string offset 'Nombre' in /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php on line 19
+[19-Jan-2019 18:02:08 America/Bogota] PHP Warning:  Illegal string offset 'Nombre' in /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php on line 19
+[19-Jan-2019 18:03:31 America/Bogota] PHP Warning:  Illegal string offset 'Nombre' in /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php on line 21
+[19-Jan-2019 18:04:05 America/Bogota] PHP Warning:  Illegal string offset 'Nombre' in /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php on line 21
+[19-Jan-2019 18:07:09 America/Bogota] PHP Fatal error:  Uncaught exception 'OutOfRangeException' with message 'Código requerido fuera de rango' in /home/o3qy25y1d4cd/public_html/class/class.http_response.php:14
+Stack trace:
+#0 /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php(36): HttpResponse->SetCodigoYMensajeRespuesta(1, 'Registro Exitos...')
+#1 {main}
+  thrown in /home/o3qy25y1d4cd/public_html/class/class.http_response.php on line 14
+[19-Jan-2019 22:46:29 America/Bogota] PHP Fatal error:  Uncaught exception 'OutOfRangeException' with message 'Código requerido fuera de rango' in /home/o3qy25y1d4cd/public_html/class/class.http_response.php:14
+Stack trace:
+#0 /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php(46): HttpResponse->SetCodigoYMensajeRespuesta(1, 'Operaci\xC3\xB3n Exit...')
+#1 {main}
+  thrown in /home/o3qy25y1d4cd/public_html/class/class.http_response.php on line 14
+[19-Jan-2019 22:57:39 America/Bogota] PHP Fatal error:  Call to undefined method HttpResponse::getRepsonse() in /home/o3qy25y1d4cd/public_html/php/centroscostos/guardar_centros_costos.php on line 47
+[20-Jan-2019 04:58:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/o3qy25y1d4cd/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 26
+[20-Jan-2019 04:58:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/o3qy25y1d4cd/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 26
+[19-Jan-2019 23:58:56 America/Bogota] PHP Fatal error:  Call to a member function save() on null in /home/o3qy25y1d4cd/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 30
+[19-Jan-2019 23:59:08 America/Bogota] PHP Fatal error:  Call to a member function save() on null in /home/o3qy25y1d4cd/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 30
+[22-Jan-2019 15:40:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 190
+[22-Jan-2019 15:40:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 189
+[22-Jan-2019 15:40:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 189
+[22-Jan-2019 15:41:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 189
+[22-Jan-2019 17:00:27 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 96
+[22-Jan-2019 13:54:48 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 168
+[22-Jan-2019 13:55:08 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 169
+[22-Jan-2019 13:55:35 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 169
+[22-Jan-2019 13:56:07 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 169
+[22-Jan-2019 13:56:30 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 169
+[22-Jan-2019 13:57:05 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 169
+[22-Jan-2019 13:57:37 America/Bogota] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/o3qy25y1d4cd/public_html/php/centroscostos/lista_centros_costos.php on line 166
+[05-Dec-2019 13:24:28 America/Bogota] PHP Fatal error:  Call to undefined method HttpResponse::SetCodigoYMensajeRespuesta() in /home/sigesproph/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 38
+[05-Dec-2019 13:24:40 America/Bogota] PHP Fatal error:  Call to undefined method HttpResponse::SetCodigoYMensajeRespuesta() in /home/sigesproph/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 38
+[05-Dec-2019 13:24:53 America/Bogota] PHP Fatal error:  Call to undefined method HttpResponse::SetCodigoYMensajeRespuesta() in /home/sigesproph/public_html/php/centroscostos/cambiar_estado_centro_costo.php on line 38

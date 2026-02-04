@@ -1,0 +1,13 @@
+[25-Jan-2021 08:50:33 America/Bogota] PHP Notice:  Undefined index: Tipo_Nit in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 17
+[25-Jan-2021 08:50:33 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function calcularBase(), 2 passed in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 150 and exactly 3 expected in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php:320
+Stack trace:
+#0 /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php(150): calcularBase('3.500', '2761500.00')
+#1 {main}
+  thrown in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 320
+[25-Jan-2021 08:50:34 America/Bogota] PHP Notice:  Undefined index: Tipo_Nit in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 17
+[25-Jan-2021 08:50:34 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function calcularBase(), 2 passed in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 150 and exactly 3 expected in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php:320
+Stack trace:
+#0 /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php(150): calcularBase('3.500', '2761500.00')
+#1 {main}
+  thrown in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 320
+[25-Jan-2021 13:53:58 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/sigespro/public_html/php/contabilidad/certificadoretencion/certificado.php on line 327

@@ -1,0 +1,60 @@
+[15-Mar-2022 16:43:57 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:49:29 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:50:34 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:51:21 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:54:29 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:56:46 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:57:00 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:57:27 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[15-Mar-2022 16:58:48 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[16-Mar-2022 13:07:54 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:13
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(56): myerror('Error Existe un...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 13
+[16-Mar-2022 13:08:22 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25
+[23-Mar-2022 14:33:49 UTC] PHP Fatal error:  Uncaught Error: Class 'HttpResponse' not found in /home/sigesproph/public_html/helper/response.php:25
+Stack trace:
+#0 /home/sigesproph/public_html/php/grupo_estiba/set_grupo_estiba.php(53): mysuccess('Operaci\xC3\xB3n real...')
+#1 {main}
+  thrown in /home/sigesproph/public_html/helper/response.php on line 25

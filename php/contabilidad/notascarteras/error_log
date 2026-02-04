@@ -1,0 +1,11 @@
+[22-Jul-2019 16:32:23 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:32:44 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:33:19 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:33:53 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:34:02 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:34:09 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:34:34 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:34:42 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:34:52 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[22-Jul-2019 16:35:01 America/Bogota] PHP Fatal error:  Class 'consulta' not found in /home/sigespro/public_html/php/contabilidad/funciones.php on line 51
+[23-Sep-2019 13:53:54 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/contabilidad/notascarteras/guardar_nota.php on line 82

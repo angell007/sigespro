@@ -1,0 +1,13 @@
+[22-May-2020 11:48:29 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sigespro/public_html/class/class.consulta.php on line 15
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.dao.php on line 48
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigespro/public_html/class/class.dao.php on line 77
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.dao.php on line 48
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigespro/public_html/class/class.dao.php on line 77
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.dao.php on line 48
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigespro/public_html/class/class.dao.php on line 77
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.dao.php on line 48
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigespro/public_html/class/class.dao.php on line 77
+[05-Jun-2020 11:31:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[03-Aug-2020 11:23:55 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 16
+[14-Oct-2020 14:07:16 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/comprasnacionales/guardar_compra_nacional.php on line 82
+[14-Oct-2020 14:08:49 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/comprasnacionales/guardar_compra_nacional.php on line 82

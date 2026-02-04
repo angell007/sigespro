@@ -1,0 +1,225 @@
+[22-Jul-2019 09:02:42 America/Bogota] PHP Fatal error:  Call to undefined function mb_convert_case() in /home/sigesproph/public_html/class/html2pdf.class.php on line 3315
+[22-Jul-2019 09:03:33 America/Bogota] PHP Fatal error:  Call to undefined function mb_convert_case() in /home/sigesproph/public_html/class/html2pdf.class.php on line 3315
+[22-Jul-2019 09:06:02 America/Bogota] PHP Fatal error:  Call to undefined function mb_convert_case() in /home/sigesproph/public_html/class/html2pdf.class.php on line 3315
+[30-Jul-2019 07:55:26 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:26 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:26 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:55:34 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:34 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:34 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:55:50 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:50 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:55:50 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:56:15 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:15 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:15 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:56:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:33 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:56:59 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:59 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:56:59 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 07:59:39 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:59:39 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 07:59:39 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:00:25 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:00:25 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:00:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:00:52 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:00:52 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:00:53 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:02:18 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:02:18 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:02:19 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:02:36 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:02:36 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:02:37 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:04:23 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:04:23 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:04:23 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:05:00 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:05:00 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:05:00 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:05:41 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:05:41 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:05:41 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:06:24 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:06:24 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:06:25 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:06:56 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:06:56 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:06:56 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:07:11 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:07:11 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:07:11 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:07:49 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:07:49 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:07:49 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:10:01 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:10:01 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:10:01 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 08:41:28 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:41:28 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 08:41:28 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 09:54:41 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:54:41 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:54:43 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 09:55:56 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:55:56 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:55:56 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[30-Jul-2019 09:56:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:56:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php on line 186
+[30-Jul-2019 09:56:21 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7643): TCPDF->Error('Some data has a...')
+#1 /home/sigesproph/public_html/class/html2pdf.class.php(396): TCPDF->Output('Ciere.pdf', 'D')
+#2 /home/sigesproph/public_html/php/cierrecaja/descarga_pdf.php(300): HTML2PDF->Output('Ciere.pdf', 'D')
+#3 {main}
+  thrown in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[06-Aug-2019 09:08:49 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:00 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:00 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:04 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:16 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:16 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:09:23 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:10:29 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:30:42 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:30:42 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:30:53 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:30:53 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:31:32 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:45:19 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[21-Nov-2019 14:41:42 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/cierrecaja/save_soporte.php on line 27

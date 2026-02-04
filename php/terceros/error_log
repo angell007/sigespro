@@ -1,0 +1,1 @@
+[30-Jul-2019 16:28:48 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15

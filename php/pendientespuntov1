@@ -1,0 +1,63 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header('Content-Type: application/json');
+
+require_once('../../config/start.inc.php');
+include_once('../../class/class.lista.php');
+include_once('../../class/class.complex.php');
+include_once('../../class/class.consulta.php');
+$idpunto = ( isset( $_REQUEST['id'] ) ? $_REQUEST['id'] : '' );
+
+$condicion ='';
+
+if (isset($_REQUEST['id']) && $_REQUEST['id'] != "") {
+    $condicion .= " AND PR.Id_Punto_Dispensacion=$_REQUEST[id] ";
+}
+if (isset($_REQUEST['nom']) && $_REQUEST['nom'] != "") {
+    $condicion .= " AND (P.Principio_Activo LIKE '%$_REQUEST[nom]%' OR P.Presentacion LIKE '%$_REQUEST[nom]%' OR P.Concentracion LIKE '%$_REQUEST[nom]%' OR P.Nombre_Comercial LIKE '%$_REQUEST[nom]%')";
+}
+
+
+$query = 'SELECT  COUNT(*) as Total
+FROM Producto_Pendientes_Remision PR
+INNER JOIN Producto P ON PR.Id_Producto=P.Id_Producto WHERE PR.Id_Producto IS NOT NULL 
+'.$condicion;
+
+
+$oCon= new consulta();
+$oCon->setQuery($query);
+$total = $oCon->getData();
+unset($oCon);
+
+####### PAGINACIÓN ######## 
+$tamPag = 30; 
+$numReg = $total['Total']; 
+$paginas = ceil($numReg/$tamPag); 
+$limit = ""; 
+$paginaAct = "";
+
+if (!isset($_REQUEST['pag']) || $_REQUEST['pag'] == '') { 
+    $paginaAct = 1; 
+    $limit = 0; 
+} else { 
+    $paginaAct = $_REQUEST['pag']; 
+    $limit = ($paginaAct-1) * $tamPag; 
+}
+
+$query = 'SELECT  IFNULL(CONCAT(P.Principio_Activo," ",P.Presentacion," ",P.Concentracion," ", P.Cantidad," ", P.Unidad_Medida),CONCAT(P.Nombre_Comercial," ",P.Laboratorio_Comercial)) as Nombre_Producto, PR.Cantidad, P.Nombre_Comercial, P.Laboratorio_Comercial, (SELECT PD.Nombre FROM Punto_Dispensacion PD WHERE PD.Id_Punto_Dispensacion=PR.Id_Punto_Dispensacion) as Punto
+FROM Producto_Pendientes_Remision PR
+INNER JOIN Producto P ON PR.Id_Producto=P.Id_Producto
+WHERE PR.Id_Producto IS NOT NULL
+'.$condicion.' ORDER BY Nombre_Producto, PR.Id_Producto LIMIT '.$limit.','.$tamPag;
+
+$oCon= new consulta();
+$oCon->setTipo('Multiple');
+$oCon->setQuery($query);
+$productos = $oCon->getData();
+unset($oCon);
+
+$resultado["Productos"]=$productos;
+$resultado["numReg"]=$numReg;
+echo json_encode($resultado);
+?>

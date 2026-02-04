@@ -1,0 +1,26 @@
+# 1. Ignorar absolutamente todo en la raíz y subcarpetas
+/*
+*.zip
+
+# 2. Permitir el propio archivo .gitignore (recomendado)
+!/.gitignore
+
+# 3. Excepciones: Permitir las carpetas que sí te interesan
+!/class/
+!/config/
+!/helper/
+!/php/
+
+# 4. Asegurar que Git rastree el contenido dentro de esas carpetas
+# (Sin esto, si las carpetas están vacías o tienen subniveles, podrían ignorarse)
+!/class/**
+!/config/**
+!/helper/**
+!/php/**
+
+# Opcional: Si dentro de estas carpetas hay logs o temporales, 
+# puedes volver a ignorarlos específicamente, por ejemplo:
+# /config/logs/*
+
+/class/class.awsS3.php
+/config/credentials/credentials.json

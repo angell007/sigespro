@@ -1,0 +1,717 @@
+<?php
+require('class.querybasedatos.php');
+require_once('html2pdf.class.php');
+include_once('NumeroALetra.php');
+
+class ImpresionFactura{
+	private $idFacturas = array();
+	private $queryObj;
+	private $encabezado;
+	private $resolucion;
+	private $factura;
+	private $homologo;
+	private $cliente;
+	private $productos = array();
+	private $funcionario;
+	private $homologo_flag = false;
+	private $cadena_pdf = '';
+	private $codigo_factura_inicial = '';
+	private $codigo_factura_final = '';
+
+	function __construct(){
+		$this->queryObj = new QueryBaseDatos();
+		//$this->idFacturas = $idFacturas;
+		$this->encabezado = $this->GetDataEncabezadoPdf();
+		$this->resolucion = $this->GetResolucionFacturas();
+	}
+
+	function __destruct(){
+		$this->idFacturas = null;
+		$this->queryObj = null;
+		unset($this->idFacturas);
+		unset($this->queryObj);
+	}
+
+	public function ImprimirFacturas(){
+		//ob_start(); // Se Inicializa el gestor de PDF
+
+		$this->cadena_pdf = '';
+
+		$i = 0;
+		foreach ($this->idFacturas as $value) {
+
+			$this->factura = $this->GetFactura($value);
+
+			if ($i == 0) {
+				$this->codigo_factura_inicial = $this->factura['Codigo'];
+			}elseif($i == count($this->idFacturas) - 1){
+				$this->codigo_factura_final = $this->factura['Codigo'];
+			}
+
+			$this->cliente = $this->GetCliente($value);
+			$this->funcionario = $this->GetFuncionario($this->factura["Id_Funcionario"]);
+			//$this->homologo_flag = $this->factura['Tipo'] == 'Homologo';
+
+			if ($this->factura['Tipo'] == 'Homologo') {
+				$this->homologo = $this->GetHomologoFactura($value);
+
+				 if ($this->homologo['Id_Factura']) {
+			        $this->homologo_flag = true;
+			        foreach ($this->homologo as $key => $value) {
+			            $this->cliente[$key] = $value;
+			        }
+			        $this->cliente['Cuota'] = 0;
+			        $this->cliente['observacion'] = "<br><strong>ESTA ES UNA FACTURA HOMOLOGO POS, QUE CORRESPONDE AL DESCUENTO APLICADO A LA FACTURA - $cod_factura </strong>";
+			    }
+			}
+
+			$this->productos = $this->GetProductosFactura($value, $this->homologo_flag);
+			$this->ArmarCadenaPdf();
+			//$this->cadena_pdf .= ob_get_contents();
+			$i++;
+		}
+
+		// echo $this->cadena_pdf;
+		// echo "<br><br>";
+		//$this->ImprimirPdf();
+		// echo "<br> $name ...done!";
+  //   	ob_flush();
+  //   	flush();
+
+		// $content_print .= ob_get_clean(); // add the content for the next document and now delete the output buffer 
+
+	 //   echo "<br> $name ...done!";
+	 //   echo str_pad('',4096)."\n";    //display some results so the page won't stay blank for too long
+	 //   ob_flush();
+	 //   flush();
+
+	}
+
+	public function SetFacturas($idFacturas){		
+		$this->idFacturas = $idFacturas;
+	}
+
+	private function GetDataEncabezadoPdf(){
+		$oItem = new complex('Configuracion',"Id_Configuracion",1);
+		$config = $oItem->getData();
+		unset($oItem);
+
+		return $config;
+	}
+
+	private function  GetResolucionFacturas(){
+		$oItem = new complex("Resolucion","Id_Resolucion",3);
+		$resolucion = $oItem->getData();
+		unset($oItem);
+
+		return $resolucion;
+	}
+
+	private function  GetFactura($idFactura){
+		$oItem = new complex("Factura","Id_Factura",$idFactura);
+		$factura = $oItem->getData();
+		unset($oItem);
+
+		return $factura;
+	}
+
+	private function  GetFuncionario($idFuncionario){
+		$oItem = new complex("Funcionario","Identificacion_Funcionario",$idFuncionario);
+		$funcionario = $oItem->getData();
+		unset($oItem);
+
+		return $funcionario;
+	}
+
+	private function  GetTotalesFactura($idFactura){
+		$query = '';
+
+		if (!$this->homologo_flag) {
+		    $query = 'SELECT SUM(Subtotal) as TotalFac FROM Producto_Factura WHERE Id_Factura = '.$idFactura;
+		} else {
+		    $query = 'SELECT SUM(Subtotal) as TotalFac FROM Producto_Factura WHERE Id_Factura = '.$this->cliente['Id_Factura'] ;
+		}
+
+		$this->queryObj->SetQuery($query);
+        $total = $this->queryObj->ExecuteQuery('simple');
+
+		return $total;
+	}
+
+
+	private function  GetCliente($idFactura){
+		$query = '
+			SELECT 
+        		FV.Codigo_Qr, 
+        		FV.Fecha_Documento as Fecha , 
+        		FV.Observacion_Factura as observacion, 
+        		FV.Codigo as Codigo,
+        		IF(FV.Condicion_Pago=1,"CONTADO",FV.Condicion_Pago) as Condicion_Pago , 
+        		FV.Fecha_Pago as Fecha_Pago , 
+        		FV.Tipo as tipo,
+        		C.Id_Cliente as IdCliente ,
+        		C.Nombre as NombreCliente, 
+        		C.Direccion as DireccionCliente, 
+        		(SELECT Nombre FROM Municipio WHERE Id_Municipio = C.Ciudad) as CiudadCliente, 
+        		C.Credito as CreditoCliente, C.Cupo as CupoCliente, 
+        		(SELECT CONCAT_WS(" ",Primer_Nombre,Segundo_Nombre,Primer_Apellido,Segundo_Apellido, CONCAT("- ", UPPER(IF(Id_Regimen=1,"Contributivo","Subsidiado")))) FROM Paciente WHERE Id_Paciente=D.Numero_Documento) AS Nombre_Paciente, 
+        		D.Numero_Documento, 
+        		FV.Cuota, 
+        		D.Codigo AS Cod_Dis, 
+        		(SELECT Nombre FROM Tipo_Servicio WHERE Id_Tipo_Servicio = D.Tipo_Servicio) AS Tipo_Servicio, 
+        		C.Tipo_Valor
+	        FROM Factura FV
+	        INNER JOIN Dispensacion D ON FV.Id_Dispensacion = D.Id_Dispensacion 
+	        INNER JOIN Cliente C ON FV.Id_Cliente = C.Id_Cliente
+	        WHERE FV.Id_Factura = '.$idFactura;
+
+        $this->queryObj->SetQuery($query);
+        $cliente = $this->queryObj->ExecuteQuery('simple');
+
+		return $cliente;
+	}
+
+	private function  GetHomologoFactura($idFactura){
+		$query = '
+			SELECT 
+				FV.Id_Factura,
+				FV.Codigo_Qr, 
+				FV.Fecha_Documento as Fecha , 
+				FV.Observacion_Factura as observacion, 
+				FV.Codigo as Codigo,
+				IF(FV.Condicion_Pago=1,"CONTADO",FV.Condicion_Pago) as Condicion_Pago , 
+				FV.Fecha_Pago as Fecha_Pago , 
+				FV.Tipo as tipo,
+				C.Id_Cliente as IdCliente ,
+				C.Nombre as NombreCliente, 
+				C.Direccion as DireccionCliente, 
+				(SELECT Nombre FROM Municipio WHERE Id_Municipio = C.Ciudad) as CiudadCliente, 
+				C.Credito as CreditoCliente, 
+				C.Cupo as CupoCliente, 
+				C.Tipo_Valor
+		    FROM Factura FV
+		    INNER JOIN Cliente C
+		    ON FV.Id_Cliente = C.Id_Cliente
+		    WHERE FV.Id_Factura_Asociada = '.$idFactura;
+
+        $this->queryObj->SetQuery($query);
+        $homologo = $this->queryObj->ExecuteQuery('simple');
+
+		return $homologo;
+	}	
+
+	private function  GetProductosFactura($idFactura, $esHomologo){
+		$query = '';
+		if (!$esHomologo) {
+			$query = '
+				SELECT 
+					CONCAT_WS(" ",P.Nombre_Comercial, P.Presentacion, P.Concentracion, " (", P.Principio_Activo,") ", P.Cantidad," ", P.Unidad_Medida ) as producto, 
+					P.Invima,
+					P.Id_Producto, 
+					P.Codigo_Cum as Cum, 
+					IFNULL(I.Fecha_Vencimiento, PFV.Fecha_Vencimiento) as Vencimiento, 
+					IFNULL(PD.Lote, PFV.Lote) as Lote,  
+					PD.Id_Inventario_Nuevo as Id_Inventario,
+					0 as Costo_unitario,
+					PFV.Cantidad as Cantidad,
+					PFV.Precio as Precio,
+					PFV.Impuesto as Impuesto,
+					PFV.Descuento as Descuento,
+					PFV.Subtotal as Subtotal,
+					PFV.Id_Producto_Factura as idPFV
+				FROM Producto_Factura PFV 
+   				LEFT JOIN Producto_Dispensacion PD ON PD.Id_Producto_Dispensacion = PFV.Id_Producto_Dispensacion 
+				INNER JOIN Producto P ON P.Id_Producto = PFV.Id_Producto
+   				LEFT JOIN Inventario_Nuevo I ON I.Id_Inventario_Nuevo = PD.Id_Inventario_Nuevo 
+   				WHERE 
+   					PFV.Id_Factura =  '.$idFactura;
+		}else{
+
+			$query = '
+				SELECT 
+					CONCAT_WS(" ",P.Nombre_Comercial, P.Presentacion, P.Concentracion, " (", P.Principio_Activo,") ", P.Cantidad," ", P.Unidad_Medida ) as producto, 
+				    P.Invima,
+				    P.Id_Producto, 
+				    P.Codigo_Cum as Cum, 
+				    IFNULL(I.Fecha_Vencimiento, PFV.Fecha_Vencimiento) as Vencimiento, 
+				    IFNULL(PD.Lote, PFV.Lote) as Lote,  
+				    PD.Id_Inventario_Nuevo as Id_Inventario,
+				    0 as Costo_unitario,
+				    PFV.Cantidad as Cantidad,
+				    PFV.Precio as Precio,
+				    PFV.Impuesto as Impuesto,
+				    PFV.Descuento as Descuento,
+				    PFV.Subtotal as Subtotal,
+				    PFV.Id_Producto_Factura as idPFV
+				FROM Producto_Factura PFV 
+			   LEFT JOIN Producto_Dispensacion PD ON PD.Id_Producto_Dispensacion = PFV.Id_Producto_Dispensacion 
+			   INNER JOIN Producto P ON P.Id_Producto = PFV.Id_Producto
+			   LEFT JOIN Inventario_Nuevo I ON I.Id_Inventario_Nuevo = PD.Id_Inventario_Nuevo 
+			   WHERE PFV.Id_Factura =  '.$this->cliente['Id_Factura'];
+		}
+
+
+        $this->queryObj->SetQuery($query);
+        $productos = $this->queryObj->ExecuteQuery('Mutiple');
+
+		return $productos;
+	}
+
+	private function fecha($str)
+	{
+		$parts = explode(" ",$str);
+		$date = explode("-",$parts[0]);
+		return $date[2] . "/". $date[1] ."/". $date[0];
+	}
+
+	private function  ArmarCadenaPdf(){
+
+		/* HOJA DE ESTILO PARA PDF*/
+		$tipo="Factura";
+		$style='<style>
+		   
+		.page-content{
+		width:750px;
+		pading:0;
+		}
+		.row{
+		display:inlinie-block;
+		width:750px;
+		}
+		.td-header{
+		    font-size:10px;
+		    line-height: 11px;
+		}
+		</style>';
+		/* FIN HOJA DE ESTILO PARA PDF*/
+
+
+		$titulo = $this->homologo_flag ? 'Factura de Venta (HOMOLOGO)' : 'Factura de Venta';
+
+		$codigos ='
+		    <span style="margin:-5px 0 0 0;font-size:13px;line-height:13px;">'.$titulo.'</span>
+		    <h3 style="margin:0 0 0 0;font-size:15px;line-height:15px;">'.$this->cliente["Codigo"].'</h3>
+		    <h5 style="margin:5px 0 0 0;font-size:8px;line-height:8px;">F. Expe.:'.$this->fecha($this->cliente["Fecha"]).'</h5>
+		    <h4 style="margin:5px 0 0 0;font-size:8px;line-height:8px;">F. Venc.:'.$this->fecha($this->cliente["Fecha_Pago"]).'</h4>
+		    <h4 style="margin:0 0 0 0;font-size:13px;line-height:13px">'.$this->cliente["Cod_Dis"].'</h4>
+		    <h4 style="margin:0 0 0 0;font-size:13px;line-height:13px">'.$this->cliente["Tipo_Servicio"].'</h4>
+		';
+
+
+		$condicion_pago = $this->cliente["Condicion_Pago"] == "CONTADO" ? $this->cliente["Condicion_Pago"] : $this->cliente["Condicion_Pago"] . " Días";
+
+		$nombre_paciente = explode('-',$this->cliente["Nombre_Paciente"])[0];
+		$regimen = explode('-',$this->cliente["Nombre_Paciente"])[1];
+
+		        
+		/* CABECERA GENERAL DE TODOS LOS ARCHIVOS PDF*/
+		$cabecera='<table style="" >
+		              <tbody>
+		                <tr>
+		                  <td style="width:70px;">
+		                    <img src="'.$_SERVER["DOCUMENT_ROOT"].'assets/images/LogoProh.jpg" style="width:50px;" alt="Pro-H Software" />
+		                  </td>
+		                  <td class="td-header" style="width:460px;font-weight:thin;font-size:10px;line-height:11px;">
+		                    <strong>'.$this->encabezado["Nombre_Empresa"].'</strong><br> 
+		                    N.I.T.: '.$this->encabezado["NIT"].'<br> 
+		                    '.$this->encabezado["Direccion"].'<br> 
+		                    Bucaramanga, Santander<br>
+		                    TEL: '.$this->encabezado["Telefono"].'<br>
+		                    REGIMEN COMÚN
+		                  </td>
+		                  <td style="width:150px;text-align:right;">
+		                        '.$codigos.'
+		                  </td>
+		                  <td style="width:100px;">
+		                  <img src="'.($this->cliente["Codigo_Qr"] =='' ? $_SERVER["DOCUMENT_ROOT"].'assets/images/sinqr.png' : $_SERVER["DOCUMENT_ROOT"].'IMAGENES/QR/'.$this->cliente["Codigo_Qr"] ).'" style="max-width:100%;margin-top:-8px;" />
+		                  </td>
+		                </tr>
+		                <tr>
+		                     <td colspan="2" style="font-size:9px;">
+		                     NO SOMOS GRANDES CONTRIBUYENTES<br>
+		                     NO SOMOS AUTORETENEDORES DE RENTA
+		                     </td>
+		                     <td colspan="2" style="font-size:9px;text-align:right;vertical-align:top;">
+		                     <strong >ORIGINAL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br>
+		                     Página [[page_cu]] de [[page_nb]]
+		                     </td>
+		                </tr>
+		              </tbody>
+		            </table>
+		            
+		            <table cellspacing="0" cellpadding="0" style="text-transform:uppercase;margin-top:8px;">
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Cliente:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.trim($this->cliente["NombreCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>N.I.T. o C.C.:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.number_format($this->cliente["IdCliente"],0,",",".").'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Dirección:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.trim($this->cliente["DireccionCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Teléfono:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.$this->cliente["Telefono"].'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Ciudad: </strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                        '.trim($this->cliente["CiudadCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Cond. Pago:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.$condicion_pago .'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Paciente: </strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                        '.trim($nombre_paciente) . ' - <strong>' .$regimen.'</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Nº Documento:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '. $this->cliente["Numero_Documento"] .'
+		                    </td>
+		                </tr>
+		            </table>
+		            <hr style="border:1px dotted #ccc;width:700px;">';
+		            
+		   $cabecera2='<table style="" >
+		              <tbody>
+		                <tr>
+		                  <td style="width:70px;">
+		                    <img src="'.$_SERVER["DOCUMENT_ROOT"].'/assets/images/LogoProh.jpg" style="width:50px;" alt="Pro-H Software" />
+		                  </td>
+		                  <td class="td-header" style="width:460px;font-weight:thin;font-size:10px;line-height:11px;">
+		                    <strong>'.$this->encabezado["Nombre_Empresa"].'</strong><br> 
+		                    N.I.T.: '.$this->encabezado["NIT"].'<br> 
+		                    '.$this->encabezado["Direccion"].'<br> 
+		                    Bucaramanga, Santander<br>
+		                    TEL: '.$this->encabezado["Telefono"].'<br>
+		                    REGIMEN COMÚN
+		                  </td>
+		                  <td style="width:150px;text-align:right">
+		                        '.$codigos.'
+		                  </td>
+		                  <td style="width:100px;">
+		                  <img src="'.($this->cliente["Codigo_Qr"] =='' ? $_SERVER["DOCUMENT_ROOT"].'assets/images/sinqr.png' : $_SERVER["DOCUMENT_ROOT"].'IMAGENES/QR/'.$this->cliente["Codigo_Qr"] ).'" style="max-width:100%;margin-top:-8px;" />
+		                  </td>
+		                </tr>
+		                <tr>
+		                     <td colspan="2" style="font-size:9px">
+		                     NO SOMOS GRANDES CONTRIBUYENTES<br>
+		                     NO SOMOS AUTORETENEDORES DE RENTA
+		                     </td>
+		                     <td colspan="2" style="font-size:9px;text-align:right;">
+		                     <strong>CLIENTE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br>
+		                     Página [[page_cu]] de [[page_nb]]
+		                     </td>
+		                </tr>
+		              </tbody>
+		            </table>
+		            
+		            <table cellspacing="0" cellpadding="0" style="text-transform:uppercase;margin-top:8px;">
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Cliente:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.trim($this->cliente["NombreCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>N.I.T. o C.C.:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.number_format($this->cliente["IdCliente"],0,",",".").'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Dirección:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.trim($this->cliente["DireccionCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Teléfono:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.$this->cliente["Telefono"].'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Ciudad: </strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                        '.trim($this->cliente["CiudadCliente"]).'
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Cond. Pago:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.$condicion_pago.'
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td style="font-size:8px;width:60px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Paciente: </strong>
+		                    </td>
+		                    <td style="font-size:8px;width:510px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.trim($nombre_paciente) . ' - <strong>' .$regimen.'</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:85px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    <strong>Nº Documento:</strong>
+		                    </td>
+		                    <td style="font-size:8px;width:110px;background:#f3f3f3;vertical-align:middle;padding:2px;">
+		                    '.$this->cliente["Numero_Documento"].'
+		                    </td>
+		                </tr>
+		            </table>
+		            <hr style="border:1px dotted #ccc;width:700px;">';
+		            
+		           
+		/* FIN CABECERA GENERAL DE TODOS LOS ARCHIVOS PDF*/
+
+
+		/* PIE DE PAGINA */
+
+		$pie='<table cellspacing="0" cellpadding="0" style="text-transform:uppercase;margin-top:4px;">
+			<tr>
+				<td style="font-size:7px;width:778px;background:#f3f3f3;vertical-align:middle;padding:1px 5px;height:10px;">
+					<strong>Resolución Facturación:</strong> Autorizacion de Facturacion # '.$this->resolucion["Resolucion"].' Desde '.$this->fecha($this->resolucion["Fecha_Inicio"]).' Hasta '.$this->fecha($this->resolucion["Fecha_Fin"]).' Habilita Del No. '.$this->resolucion["Numero_Inicial"].' Al No. '.$this->resolucion["Numero_Final"].' Actividad economica principal 4645<br>
+				</td>
+			
+			</tr>
+			<tr>
+			   <td style="font-size:7px;width:778px;background:#c6c6c6;vertical-align:middle;padding:1px 5px;text-align:center;">
+				<strong>Esta Factura se asimila en sus efectos legales a una letra de cambio Art. 774 del Codigo de Comercio</strong>
+			   </td>
+			</tr>
+			<tr>
+			   <td style="font-size:7px;width:778px;background:#f3f3f3;vertical-align:middle;padding:1px 5px;">
+				<strong>Nota:</strong> No se aceptan devoluciones de ningun medicamento de cadena de frio o controlados.<br>
+				<strong>Cuentas Bancarias:</strong> Banco Corpbanca Cta Cte 229 032 776 - Banco Occidente 657 034 583 - Bancolombia Cta Cte 302 786 049 52
+			   </td>
+			</tr>
+		</table>
+		<table>
+		 <tr>
+		 	<td style="font-size:8px;width:365px;vertical-align:middle;padding:2px 5px;text-align:center;">
+		 	<br><br>______________________________<br>
+		 		Elaborado Por<br>'.$this->funcionario["Nombres"]." ".$this->funcionario["Apellidos"].'
+		 	</td>
+		 	<td style="font-size:8px;width:365px;vertical-align:middle;padding:2px 5px;text-align:center;">
+		 	<br><br>______________________________<br>
+		 		Recibí Conforme<br>
+		 	</td>
+		 </tr>
+		</table>
+		';
+
+		$col_desc = '';
+		$width_prod = 'width:430px;';
+		$width_prod2 = 'width:285px;';
+
+		if (!$this->homologo_flag) {
+		    $col_desc = '<td style="font-size:7px;line-height:8px;background:#c6c6c6;text-align:center;">Descuento</td>';
+		    $width_prod = 'width:392px;';
+		    $width_prod2 = 'width:225px;';
+		}
+
+		$contenido = '<table  cellspacing="0" cellpadding="0" >
+			        	    <tr>
+			        		<td style="'.$width_prod.'font-size:8px;background:#c6c6c6;text-align:center;">Descripción</td>
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">Lote</td>
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">F. Venc.</td>
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">Und</td>
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">Iva</td>
+			        		'.$col_desc.'
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">Precio</td>
+			        		<td style="font-size:8px;background:#c6c6c6;text-align:center;">Total</td>
+			        	    </tr>';
+					    $total_iva = 0;
+		                $total_desc = 0;
+		                $subtotal = 0;
+
+		                    $decimales = 2;
+
+		                    if ($this->cliente['Tipo_Valor'] == 'Cerrada') {
+		                        $decimales = 0;
+		                    }
+		                
+			        	    foreach($this->productos as $prod){ 
+			        	    	$total_iva += (($prod["Subtotal"]-($prod["Descuento"]*$prod['Cantidad']))*($prod["Impuesto"]/100));
+			        	    	$contenido.='<tr>
+			        		<td style="'.$width_prod.'padding:2px 3px;font-size:7px;text-align:left;border:1px solid #c6c6c6;vertical-align:middle;line-height:9px;height:auto;">
+		                    '.trim($prod["producto"]).' | INV: '.trim($prod['Invima']).' | CUM: '.trim($prod['Cum']).'
+			        		</td>
+			        		<td style="padding:2px 3px;font-size:7px;text-align:center;border:1px solid #c6c6c6;width:50px;vertical-align:middle;line-height:9px;height:auto;"> 
+			        		'.$prod["Lote"].'
+			        		</td>
+			        		<td style="padding:2px 3px;font-size:7px;text-align:center;border:1px solid #c6c6c6;width:35px;vertical-align:middle;line-height:9px;height:auto;">
+			        		'.$this->fecha($prod["Vencimiento"]).'
+			        		</td>
+			        		<td style="padding:2px 3px;font-size:7px;text-align:center;border:1px solid #c6c6c6;width:20px;vertical-align:middle;line-height:9px;height:auto;">
+			        		'.number_format($prod["Cantidad"],0,"",".").'
+			        		</td>
+			        		<td style="padding:2px 3px;font-size:7px;;text-align:center;border:1px solid #c6c6c6;vertical-align:middle;line-height:9px;height:auto;">
+			        		'.($prod["Impuesto"]).'%
+		                    </td>';
+		                    
+		                    if (!$this->homologo_flag) {
+		                        $decimales_dcto = $decimales;
+
+		                        if ($this->cliente["IdCliente"] == 890500890) { // SI ES NORTE DE SANTANDER
+		                            $decimales_dcto = 0;
+		                        }
+		                        $contenido .= '<td style="padding:2px 3px;font-size:7px;;text-align:center;border:1px solid #c6c6c6;vertical-align:middle;width:50px;line-height:9px;height:auto;">
+		                        $ '.number_format($prod["Descuento"],$decimales_dcto,",",".").'
+		                        </td>';
+		                    }
+			        		
+			        		$contenido .= '<td style="padding:2px 3px;font-size:7px;text-align:right;border:1px solid #c6c6c6;vertical-align:middle;width:60px;line-height:9px;height:auto;">
+			        		$ '.number_format($prod["Precio"],$decimales,",",".").'
+			        		</td>
+			        		<td style="padding:2px 3px;font-size:7px;text-align:right;border:1px solid #c6c6c6;width:60px;vertical-align:middle;line-height:9px;height:auto;">
+			        		$ '.number_format($prod["Subtotal"],$decimales,",",".").'
+			        		</td>
+		                    </tr>';
+		                    $total_desc += $prod["Descuento"] * $prod["Cantidad"];
+		                    $subtotal += $prod["Subtotal"];
+		                    }
+		                    $total_dcto = number_format($total_desc,$decimales,".","");
+
+		                    if ($this->cliente["IdCliente"] == 890500890) { // SI ES NORTE DE SANTANDER
+		                        $total_dcto = number_format($total_desc,0,"","");
+		                    }
+		                    $subtotal = number_format($subtotal,$decimales,".","");
+		                    $total_iva = number_format($total_iva,$decimales,".","");
+		                    $total = $subtotal+$total_iva-$total_dcto-$this->cliente['Cuota'];
+		                    
+		                    $numero = number_format($total, $decimales, '.','');
+		                    $letras = NumeroALetras::convertir($numero);
+		                    
+
+			             $contenido.='</table>
+			             <table style="margin-top:8px;margin-bottom:0;" >
+			             	<tr>
+			             	   <td colspan="2" style="padding:2px 3px;font-size:8px;border:1px solid #c6c6c6;width:585px;"><strong>Valor a Letras:</strong><br>'.$letras.' PESOS MCTE</td>
+			             	   <td rowspan="3" style="padding:3px;font-size:8px;border:1px solid #c6c6c6;width:150px;">
+			             	   	<table cellpadding="0" cellspacing="0">
+			             	   	   <tr>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;line-height:9px;"><strong>Subtotal</strong></td>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;text-align:right;line-height:9px;">$ '.number_format($subtotal,$decimales,",",".").'</td>
+		                            </tr>';
+		                               
+		                        if (!$this->homologo_flag) {
+		                            $decimales_dcto = $decimales;
+
+		                            if ($this->cliente["IdCliente"] == 890500890) { // SI ES NORTE DE SANTANDER
+		                                $decimales_dcto = 0;
+		                            }
+		                            $contenido .= '<tr>
+		                            <td style="padding:0 3px;font-size:8px;width:80px;line-height:9px;"><strong>Dcto.</strong></td>
+		                            <td style="padding:0 3px;font-size:8px;width:80px;text-align:right;line-height:9px;">$ '.number_format($total_desc,$decimales_dcto,",",".").'</td>
+		                        </tr>';
+		                        }
+			             	   	   
+		                        
+			             	   	 $contenido .='<tr>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;line-height:9px;"><strong>Iva 19%</strong></td>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;text-align:right;line-height:9px;">$ '.number_format($total_iva,$decimales,",",".").'</td>
+			             	   	   </tr>
+			             	   	   <tr>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;line-height:9px;"><strong>Cuotas Moderadora</strong></td>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;text-align:right;line-height:9px;">$ '.number_format($this->cliente['Cuota'],$decimales,",",".").'</td>
+			             	   	   </tr>
+			             	   	   <tr>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;line-height:9px;"><strong>Total</strong></td>
+			             	   		<td style="padding:0 3px;font-size:8px;width:80px;text-align:right;line-height:9px;"><strong>$ '.number_format($total,$decimales,",",".").'</strong></td>
+			             	   	   </tr>
+			             	   	</table>
+			             	   </td>
+			             	</tr>
+			             	<tr>
+			             	   <td style="padding:2px 3px;font-size:7px;border:1px solid #c6c6c6;width:446px;line-height:8px;">
+			             	   	<strong>Observaciones:</strong><br>
+			             	   	'.$this->cliente["observacion"].'
+			             	   </td>
+			             	   <td style="padding:2px 3px;font-size:7px;border:1px solid #c6c6c6;width:90px;line-height:8px;"></td>
+			             	</tr>
+		                 </table>';
+		                 
+			             
+		/* CONTENIDO GENERAL DEL ARCHIVO MEZCLANDO TODA LA INFORMACION*/
+		$content = '<page pagegroup="new" backtop="190px" backbottom="105px">
+				<page_header>'.
+		                    $cabecera.
+				'</page_header>
+				<page_footer>'.$pie.'</page_footer>
+		                <div class="page-content">
+		                <br>
+			             '.$contenido.'
+		               </div>
+		            </page>
+		            
+		            <page backtop="190px" backbottom="105px">
+				<page_header>'.
+		                    $cabecera2.
+				'</page_header>
+				<page_footer>'.$pie.'</page_footer>
+		                <div class="page-content"><br>
+			             '.$contenido.'
+		               </div>
+		            </page>';
+		            
+		/* FIN CONTENIDO GENERAL DEL ARCHIVO MEZCLANDO TODA LA INFORMACION*/
+
+		//$this->cadena_pdf .= ob_get_contents();
+		if ($this->cadena_pdf == '') {
+			$this->cadena_pdf = $content;	
+		}else{
+			//$this->cadena_pdf .= '<br>';
+			$this->cadena_pdf .= $content;	
+		}
+		
+	}
+
+	public function ImprimirPdf(){
+
+		try{
+		    /* CREO UN PDF CON LA INFORMACION COMPLETA PARA DESCARGAR*/
+		   	$html2pdf = new HTML2PDF('L', array(215.9,140), 'Es', true, 'UTF-8', array(2, 0, 2, 0));
+		   	$html2pdf->writeHTML($this->cadena_pdf);
+		   	$direc = 'Facturas_'.$this->codigo_factura_inicial.'_a_'.$this->codigo_factura_final.'.pdf'; // NOMBRE DEL ARCHIVO ES EL CODIGO DEL DOCUMENTO
+		   //ob_end_clean();
+		   	$html2pdf->Output($direc, "D"); // LA D SIGNIFICA DESCARGAR, 'F' SE PODRIA HACER PARA DEJAR EL ARCHIVO EN UNA CARPETA ESPECIFICA
+		}catch(HTML2PDF_exception $e) {
+		    echo $e;
+		    exit;
+		}
+	}
+}
+?>

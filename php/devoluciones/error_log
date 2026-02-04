@@ -1,0 +1,16 @@
+[12-Jan-2019 16:16:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in /home/o3qy25y1d4cd/public_html/class/class.querybasedatos.php on line 30
+[12-Jan-2019 16:17:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in /home/o3qy25y1d4cd/public_html/class/class.querybasedatos.php on line 30
+[12-Jan-2019 11:17:48 America/Bogota] PHP Fatal error:  Call to a member function setQuery() on null in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 56
+[12-Jan-2019 14:13:29 America/Bogota] PHP Warning:  utf8_decode() expects parameter 1 to be string, array given in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39
+[12-Jan-2019 14:15:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/o3qy25y1d4cd/public_html/php/devoluciones/detalle_devolucion.php on line 39

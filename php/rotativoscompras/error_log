@@ -1,0 +1,539 @@
+[13-Oct-2020 17:04:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 151
+[16-Oct-2020 12:24:03 America/Bogota] PHP Warning:  mysqli_query(): Empty query in /home/sigesproph/public_html/class/class.consulta.php on line 25
+[16-Oct-2020 12:24:08 America/Bogota] PHP Warning:  mysqli_query(): Empty query in /home/sigesproph/public_html/class/class.consulta.php on line 25
+[16-Oct-2020 12:25:02 America/Bogota] PHP Warning:  mysqli_query(): Empty query in /home/sigesproph/public_html/class/class.consulta.php on line 25
+[16-Oct-2020 12:25:30 America/Bogota] PHP Warning:  mysqli_query(): Empty query in /home/sigesproph/public_html/class/class.consulta.php on line 25
+[16-Oct-2020 12:57:43 America/Bogota] PHP Warning:  array_map() expects at least 2 parameters, 1 given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 270
+[17-Oct-2020 14:35:47 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 88
+[17-Oct-2020 14:39:42 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 197
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode() expects parameter 1 to be string, array given in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  explode(): Empty delimiter in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 300
+[20-Oct-2020 12:24:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/rotativoscompras/lista_rotativo_compra.php on line 302
+[12-Nov-2020 14:17:36 America/Bogota] PHP Warning:  mysqli_query(): Empty query in /home/sigesproph/public_html/class/class.consulta.php on line 25

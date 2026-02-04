@@ -1,0 +1,3 @@
+[19-Aug-2020 10:18:36 America/Bogota] PHP Fatal error:  Call to a member function SetQuery() on null in /home/sigespro/public_html/php/GENERALES/contabilizacion/facturas_ventas/movimiento_contable.php on line 54
+[19-Aug-2020 10:19:19 America/Bogota] PHP Fatal error:  Call to a member function SetQuery() on null in /home/sigespro/public_html/php/GENERALES/contabilizacion/facturas_ventas/movimiento_contable.php on line 54
+[19-Aug-2020 10:20:10 America/Bogota] PHP Fatal error:  Call to a member function SetQuery() on null in /home/sigespro/public_html/php/GENERALES/contabilizacion/facturas_ventas/movimiento_contable.php on line 54

@@ -1,0 +1,264 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header('Content-Type: application/vnd.ms-excel');
+header('Content-Disposition: attachment;filename="Resumen Retenciones.xls"');
+header('Cache-Control: max-age=0'); 
+
+require_once('../../../config/start.inc.php');
+include_once('../../../class/class.lista.php');
+include_once('../../../class/class.complex.php');
+include_once('../../../class/class.consulta.php');
+
+require_once('../libroauxiliar/funciones.php');
+
+require_once('../libroauxiliar/querys.php');
+
+$oItem = new complex('Configuracion','Id_Configuracion',1);
+$configuracion = $oItem->getData();
+unset($oItem);
+
+
+$tipo_reporte = (isset($_REQUEST['Tipo_Reporte']) && $_REQUEST['Tipo_Reporte'] == 'Niif' ? "_". $_REQUEST['Tipo_Reporte'] : '');
+$textoTotalDeclarioTributaria = $_REQUEST['Tipo_Retencion'] == 'Retefuente' ? 'TOTAL RETENCIONES RENTA Y COMPLEMENTARIOS' : 'TOTAL RETENCION ICA';
+$inicio = isset($_REQUEST['Fecha_Inicio']) ?  $_REQUEST['Fecha_Inicio'] : '';
+
+$_REQUEST['Fecha_Inicial'] = $_REQUEST['Fecha_Inicio'];
+$_REQUEST['Fecha_Final'] = $_REQUEST['Fecha_Fin'];
+
+$_REQUEST['Tipo'] = $_REQUEST['Tipo_Reporte'] == 'Pcga' ? 'General' : 'Nif';
+
+$condicion = getCondiciones();
+$ultimo_dia_mes = getUltimoDiaMes($inicio);
+$query = "SELECT
+r.Codigo_Cuenta,
+r.Cuenta,
+r.Concepto,
+
+r.Retencion,
+r.Porcentaje,
+r.Tipo_Valor,
+r.Naturaleza,
+r.Id_Plan_Cuenta,
+r.Debito_PCGA,
+r.Credito_PCGA,
+r.Debito_NIIF,
+r.Credito_NIIF,
+r.Codigo
+
+FROM
+(
+SELECT 
+PC.Codigo AS Codigo_Cuenta, 
+PC.Nombre AS Cuenta,
+PC.Porcentaje, 
+PRRR.Concepto,
+PRRR.Tipo_Valor,
+PC.Naturaleza,
+MC.Id_Plan_Cuenta,
+ PC.Codigo,
+(CASE PRRR.Tipo_Valor
+WHEN 'D' THEN SUM(Debe$tipo_reporte)
+WHEN 'C' THEN SUM(Haber$tipo_reporte)
+WHEN 'D-C' THEN SUM(Debe$tipo_reporte)-SUM(Haber$tipo_reporte)
+WHEN 'C-D' THEN SUM(Haber$tipo_reporter)-SUM(Debe$tipo_reporte)
+ELSE IF(PC.Naturaleza = 'D', SUM(Debe$tipo_reporte)-SUM(Haber$tipo_reporte), SUM(Haber$tipo_reporte)-SUM(Debe$tipo_reporte))
+END) AS Retencion,
+
+(SELECT IFNULL(SUM(B.Debito_PCGA),0) FROM Balance_Inicial_Contabilidad B WHERE B.Fecha = '$ultimo_dia_mes'  AND B.Id_Plan_Cuentas =  MC.Id_Plan_Cuenta ) AS Debito_PCGA,
+(SELECT IFNULL(SUM(B.Credito_PCGA),0) FROM Balance_Inicial_Contabilidad B WHERE B.Fecha = '$ultimo_dia_mes'  AND B.Id_Plan_Cuentas = MC.Id_Plan_Cuenta ) AS Credito_PCGA,
+(SELECT IFNULL(SUM(B.Debito_NIIF),0) FROM Balance_Inicial_Contabilidad B WHERE B.Fecha = '$ultimo_dia_mes' AND B.Id_Plan_Cuentas = MC.Id_Plan_Cuenta ) AS Debito_NIIF,
+(SELECT IFNULL(SUM(B.Credito_NIIF),0) FROM Balance_Inicial_Contabilidad  B WHERE B.Fecha = '$ultimo_dia_mes' AND B.Id_Plan_Cuentas = MC.Id_Plan_Cuenta ) AS Credito_NIIF
+
+
+
+FROM Movimiento_Contable MC 
+INNER JOIN Parametro_Reporte_Resumen_Retencion PRRR ON MC.Id_Plan_Cuenta = PRRR.Id_Plan_Cuenta 
+INNER JOIN Plan_Cuentas PC ON PC.Id_Plan_Cuentas = MC.Id_Plan_Cuenta 
+WHERE MC.Estado = 'Activo' 
+$condicion
+GROUP BY MC.Id_Plan_Cuenta
+) r ORDER BY Concepto, Codigo_Cuenta";
+
+$oCon = new consulta();
+$oCon->setQuery($query);
+$oCon->setTipo('Multiple');
+$cuentas = $oCon->getData();
+unset($oCon);
+
+$conceptosCount = getCountConceptos($cuentas);
+
+$contenido = '
+<table border="1">
+<tr>
+    <td colspan="7" align="center"><strong>'.$configuracion['Nombre_Empresa'].'</strong></td>
+</tr>
+<tr>
+    <td colspan="7" align="center"><strong>Nit: '.$configuracion['NIT'].'</strong></td>
+</tr>
+<tr>
+    <td colspan="7" align="center"><strong>Resumen '.$_REQUEST['Tipo_Retencion'].' - '.strtoupper($_REQUEST['Tipo_Reporte']).'</strong></td>
+</tr>
+<tr>
+    <td colspan="7" align="center"><strong>Desde: '.$_REQUEST['Fecha_Inicio'].' - Hasta: '.$_REQUEST['Fecha_Fin'].'</strong></td>
+</tr>
+<tr>
+    <th bgcolor="#C3D69B" colspan="4" align="center">INFORMACI&Oacute;N CONTABLE</th>
+    <th bgcolor="#E6B9B8" colspan="3" align="center">DECLARACI&Oacute;N TRIBUTARIA</th>
+</tr>
+<tr>
+    <th bgcolor="#C3D69B" align="center">CODIGO CUENTA</th>
+    <th bgcolor="#C3D69B" align="center">CUENTA</th>
+    <th bgcolor="#C3D69B" align="center">BASE</th>
+    <th bgcolor="#C3D69B" align="center">RETENCION</th>
+    <th bgcolor="#E6B9B8" align="center">CONCEPTO</th>
+    <th bgcolor="#E6B9B8" align="center">BASE</th>
+    <th bgcolor="#E6B9B8" align="center">RETENCION</th>
+</tr>
+';
+
+$conc_ant = '';
+$totales = [
+    "retenciones" => 0,
+    "tributarias" => 0
+];
+
+#$movimientos = armarDatosNit($movimientos);
+/*echo '<pre>';
+var_dump($cuentas);
+echo '</pre>'; 
+*/
+  foreach ($cuentas as $i => $cuenta) {
+      $query = queryMovimientosCuenta($cuenta['Id_Plan_Cuenta']);
+     
+      $oCon = new consulta();
+      $oCon->setQuery($query);
+      $oCon->setTipo('Multiple');
+      $movimientos = $oCon->getData();
+      unset($oCon);
+
+      $cuentas[$i]['Movimientos'] = $movimientos;
+    }
+/*
+echo '<pre>';
+var_dump($cuentas);
+echo '</pre>'; exit;*/
+
+foreach ($cuentas as $i => $data) {
+    
+     $saldo = obtenerSaldoAnterior($data['Naturaleza'], $cuentas, $i, $tipo_nit = false);
+     $cuentas[$i]['saldo'] = $saldo;
+     unset($cuentas[$i]['Movimientos']);
+    # var_dump($saldo);
+   
+    $retencion = $data['Retencion'] + $saldo;
+
+    $base =  $retencion / $data['Porcentaje'] ;
+    $contenido .= '
+    <tr>
+        <td>'.$data['Codigo_Cuenta'].'</td>
+        <td>'.$data['Cuenta'].'</td>
+        <td>'.number_format($base,2,",","").'</td>
+        <td>'.number_format($retencion ,2,",","").'</td>
+    ';
+    if ($conc_ant != $data['Concepto']) {
+        $conc_ant = $data['Concepto'];
+        $rowspan = $conceptosCount[$data['Concepto']]['rowspan'];
+        $base_conc = $conceptosCount[$data['Concepto']]['base'] ;
+
+        $retencion_conc = $conceptosCount[$data['Concepto']]['retencion']; 
+
+/* 
+       if($data['Concepto']=='RENDIMIENTOS FINANCIEROS E INTERERESES'){
+
+        var_dump($conceptosCount[$data['Concepto']]);
+        exit;   
+      }
+ */
+
+
+        $contenido .= '
+            <td valign="middle" rowspan="'.$rowspan.'">'.$data['Concepto'].'</td>
+            <td valign="middle" rowspan="'.$rowspan.'">'.number_format($base_conc,2,",","") .'</td>
+            <td valign="middle" rowspan="'.$rowspan.'">'.number_format($retencion_conc,2,",","").'</td>
+        ';
+
+        $totales['tributarias'] += $retencion_conc;
+    }
+    $contenido .= '</tr>';
+
+    $totales['retenciones'] += $data['Retencion'];
+}
+/*
+echo '<pre>';
+var_dump($cuentas);
+echo '</pre>'; exit;*/
+$contenido .= '
+    <tr>
+        <td colspan="3" align="center"><strong>TOTAL RETENCIONES POR PAGAR</strong></td>
+        <td>'.number_format($totales['retenciones'],2,",","").'</td>
+        <td colspan="2" valign="middle" align="center" rowspan="2"><strong>'.$textoTotalDeclarioTributaria.'</strong></td>
+        <td valign="middle" rowspan="2">'.number_format($totales['tributarias'],2,",","").'</td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center"><strong>AJUSTE AL PESO</strong></td>
+        <td>'.number_format($totales['retenciones']-$totales['tributarias'],2,",","").'</td>
+    </tr>
+';
+
+$contenido .= '</table>';
+
+echo $contenido;
+
+function getCondiciones() {
+    
+    $condicion = '';
+
+    if (isset($_REQUEST['Fecha_Inicio']) && isset($_REQUEST['Fecha_Fin'])) {
+        $condicion .= " AND DATE(MC.Fecha_Movimiento) BETWEEN '$_REQUEST[Fecha_Inicio]' AND '$_REQUEST[Fecha_Fin]'";
+    }
+    if (isset($_REQUEST['Tipo_Retencion'])) {
+        $condicion .= " AND PRRR.Tipo_Retencion = '$_REQUEST[Tipo_Retencion]'";
+        
+        $tipo = $_REQUEST['Tipo_Retencion'];
+        
+        if($tipo == 'Retefuente'){
+            
+             $condicion .= " AND MC.Nit != 800197268 ";
+       
+        }else{
+           // $condicion .= " AND MC.Nit != 890201222 ";
+        }
+        
+        
+    }
+    
+    
+    
+    return $condicion;
+}
+
+function getCountConceptos($data) {
+    $conceptos = [];
+
+    foreach ($data as $i => $value) {
+        if (!array_key_exists($value['Concepto'],$conceptos)) {
+            $conceptos[$value['Concepto']] = [
+                "rowspan" => 1,
+                "base" => ($value['Retencion'] / $value['Porcentaje'] ),
+                "retencion" => $value['Retencion']
+            ];
+         
+        } else {
+            $conceptos[$value['Concepto']]['rowspan'] += 1;
+            $conceptos[$value['Concepto']]['base'] += ($value['Retencion'] / $value['Porcentaje'] ) ;
+            $conceptos[$value['Concepto']]['retencion'] += $value['Retencion'];
+        }
+
+      
+    }
+
+    return $conceptos;
+}
+
+?>

@@ -1,0 +1,5083 @@
+[
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7707051500383",
+		"Codigo_Cum" : "19975165-4",
+		"Embalaje" : "CAJA X 30 TABLETAS EN BLISTER ALUMINIO/PVDC",
+		"Id_Producto" : "50217",
+		"Imagen" : "5b5b4f8e76ade.jpeg",
+		"Laboratorio_Comercial" : "COLOMPACK S.A.",
+		"Laboratorio_Generico" : "GARMISCH PHARMACEUTICAL S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "121407",
+				"Id_Producto" : "50217",
+				"Lote" : "s04110"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "DOXGMS",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PROSTARIDE 4 MG TABLETAS (DOXASOZINA MESILATO EQUIVALENTE A 4.00MG DOXASOZINA BASE  A) 4 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "8470001813800",
+		"Codigo_Cum" : "20021118",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "53938",
+		"Imagen" : "5b648972b7afa.jpg",
+		"Laboratorio_Comercial" : "MEDIVELIUS FARMACEUTICA S.A.",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "121998",
+				"Id_Producto" : "53938",
+				"Lote" : "17E149A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "HELSP",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "HELIOCARE ADVANCED SPRAY SPF 50 PROTECTOR SOLAR / HELIOCARE ADVANCED SPRAY SPF 50 SUNSCREEN LAB-MEDIVELIUS FARMACEUTICA S.A."
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186513120",
+		"Codigo_Cum" : "226883",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "54608",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ABBOTT NUTRITION ALTAVISTA ESTADOS UNIDOS",
+		"Laboratorio_Generico" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "4",
+				"Cantidad_Inventario" : "6",
+				"Fecha_Vencimiento" : "2020-03-01",
+				"Id_Inventario" : "116991",
+				"Id_Producto" : "54608",
+				"Lote" : "02563RA0"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 2,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2021-03-01",
+				"Id_Inventario" : 0,
+				"Lote" : "02563RA0"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 24,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2019-12-30",
+				"Id_Inventario" : 0,
+				"Lote" : "95666RA0"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ALIMENTO PARA PROPOSITOS MEDICOS ESPECIALES COMPLETO Y BALANCEADO PARA PACIENTES CON ALTOS REQUERIMIENTOS DE ENERGIA Y PROTEINAS. OSMOLITEAAÂ® LAB-ABBOTT NUTRITION ALTAVISTA ESTADOS UNIDOS"
+	},
+	{
+		"Cantidad_Presentacion" : "4",
+		"Codigo_Barras" : "7702207700037",
+		"Codigo_Cum" : "20052952-3",
+		"Embalaje" : "CAJA X 12 TABLETAS RECUBIERTAS EN BLISTER OPA-ALU-PVC / ALU X 4 TABLETAS CADA UNO.",
+		"Id_Producto" : "32599",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS SYNTHESIS S.A.S.",
+		"Laboratorio_Generico" : "LABORATORIOS SYNTHESIS S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "8",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "116043",
+				"Id_Producto" : "32599",
+				"Lote" : "9A4185"
+			},
+			{
+				"Cantidad_Encontrada" : "4",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "129847",
+				"Id_Producto" : "32599",
+				"Lote" : "9A6749"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "NUEVID (VITAMINA D3 (COLECALCIFEROL) TABLETA RECUBIERTA A) 7000 UI"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7703283404659",
+		"Codigo_Cum" : "19953202-7",
+		"Embalaje" : "CAJA POR 30 CAPSULAS EN BLISTER ALUMINIO/PVC TRANSPARENTE.",
+		"Id_Producto" : "27496",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "PFIZER GMGH",
+		"Laboratorio_Generico" : "PFIZER S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "X36987"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "27496",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LY75PF",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "LYRICA 75 MG CAPSULAS (PREGABALINA CAPSULA DURA A) 75 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "14",
+		"Codigo_Barras" : "7591257001078",
+		"Codigo_Cum" : "227361-01",
+		"Embalaje" : "CAJAS POR 14 TABLETAS EN BLISTER PVC+PVDC/ALUMINIO.",
+		"Id_Producto" : "50337",
+		"Imagen" : "5b61d603ebf69.jpg",
+		"Laboratorio_Comercial" : "PFIZER S.A.S.",
+		"Laboratorio_Generico" : "PFIZER S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-08-30",
+				"Id_Inventario" : 0,
+				"Lote" : "18067"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "50337",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CELL250",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "CARDURANAÂ® 4MG TABLETAS (DOXAZOSINA MESILATO EQUIVALENTE A DOXAZOSINA  A) 4 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "8901463122280",
+		"Codigo_Cum" : "20011017-18",
+		"Embalaje" : "CAJA X 30 CAPSULAS CON 3 BLISTER ALU/PVC/PE/PVDC POR 10 CAPULAS CADA UNO",
+		"Id_Producto" : "11942",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS LEGRAND S.A.",
+		"Laboratorio_Generico" : "LABORATORIOS LEGRAND S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-12-30",
+				"Id_Inventario" : 0,
+				"Lote" : "BTC1910A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "11942",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "20011017-18",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "DEMULIN ER 0.4 (CLORHIDRATO DE TAMSULOSINA CAPSULA DE LIBERACION PROLONGADA A) 0 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7708960122406",
+		"Codigo_Cum" : "20122985-3",
+		"Embalaje" : "CAJA PLEGADIZA CON 50 BLISTER EN PVC TRANSPARENTE / ALUMINIO POR 10 TABLETAS C/U.",
+		"Id_Producto" : "13639",
+		"Imagen" : "5b61d604076b3.jpg",
+		"Laboratorio_Comercial" : "LABORATORIOS DEMAC LTDA",
+		"Laboratorio_Generico" : "THE LABS S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "170",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "115705",
+				"Id_Producto" : "13639",
+				"Lote" : "0670719"
+			},
+			{
+				"Cantidad_Encontrada" : "50",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "129852",
+				"Id_Producto" : "13639",
+				"Lote" : "0900919"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "BACLD",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "DISTENTIA (BACLOFENO TABLETA A) 10 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "8903726183694",
+		"Codigo_Cum" : "20065665-1",
+		"Embalaje" : "CAJA POR 3 BLISTER EN ALUMINIO/PVC-PE-PVDC POR 10 TABLETAS CADA UNO (30 TABLETAS).",
+		"Id_Producto" : "25910",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "2. HETERO LABS LIMITED UNIT VI",
+		"Laboratorio_Generico" : "HETERO LABS LIMITED",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "210",
+				"Fecha_Vencimiento" : "2022-01-30",
+				"Id_Inventario" : "99041",
+				"Id_Producto" : "25910",
+				"Lote" : "LET119602D"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LETS",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "LETROLE  (LETROZOL TABLETA RECUBIERTA A) 3 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7703546702010",
+		"Codigo_Cum" : "20079790-3",
+		"Embalaje" : "CAJA POR 30 TABLETAS RECUBIERTAS EN BLISTER PVC/PCTFE/PVC SELLADO CON ALU/PVDC TRANSPARENTE. CADA BLISTER POR 10 TABLETAS RECUBIERTAS.",
+		"Id_Producto" : "23046",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "KOCAK FARMA ILAC VE KIMYA SANAYI A.S",
+		"Laboratorio_Generico" : "NOVAMED S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-08-30",
+				"Id_Inventario" : 0,
+				"Lote" : "1986805"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "23046",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "IMMUNEX TABLETA RECUBIERTA (LEFLUNOMIDA TABLETA RECUBIERTA A) 20 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7707172689387",
+		"Codigo_Cum" : "19936411-1",
+		"Embalaje" : "CAJA X 30 TABLETAS RECUBIERTAS EN BLISTER DE ALUMINIO/PVC.",
+		"Id_Producto" : "24547",
+		"Imagen" : "5b5c94ecb235c.jpg",
+		"Laboratorio_Comercial" : "GLAXOSMITHKLINE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "GLAXOSMITHKLINE TRADING SERVICES LIMITED",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : "101605",
+				"Id_Producto" : "24547",
+				"Lote" : "270065"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "115716",
+				"Id_Producto" : "24547",
+				"Lote" : "264024"
+			},
+			{
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Inventario" : "60",
+				"Fecha_Vencimiento" : "2022-02-28",
+				"Id_Inventario" : "117024",
+				"Id_Producto" : "24547",
+				"Lote" : "275156"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2021-11-30",
+				"Id_Inventario" : "121472",
+				"Id_Producto" : "24547",
+				"Lote" : "275882"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 90,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2020-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "279275"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "KE1000TBGR",
+		"Mensaje" : "Se encontraron 5 Lotes de este Producto",
+		"Nombre" : "KEPPRA  TABLETAS 1000 MG (LEVETIRACETAM TABLETA RECUBIERTA A) 1000 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7501125187254",
+		"Codigo_Cum" : "020035418-1",
+		"Embalaje" : "CAJA POR 50 TABLETAS EN BLISTER PVC COLOR VERDE",
+		"Id_Producto" : "54899",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS PISA S.A. DE C.V.",
+		"Laboratorio_Generico" : "LABORATORIOS PISA S.A.. DE C.V. PLANTA TLAJOMULCO",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "200",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "99037",
+				"Id_Producto" : "54899",
+				"Lote" : "X19F008"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "MICOFENOLATO DE MOFETILO (MICOFENOLATO DE MOFETILO TABLETA A) 500 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707236121761",
+		"Codigo_Cum" : "19980647-1",
+		"Embalaje" : "CAJA POR 1 FRASCO AMPOLLA POR 5 ML CADA UNO",
+		"Id_Producto" : "54360",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "VITALIS S.A.C.I PLANTA 8",
+		"Laboratorio_Generico" : "VITALIS S.A. C.I.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "3",
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : "86816",
+				"Id_Producto" : "54360",
+				"Lote" : "P182407"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ACZO4INYVI",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ACIDO ZOLEDRONICO 4MG/5ML (ACIDO ZOLEDRONICO MONOHIDRATO 4.265 MG EQUIVALENTE A ACIDO ZOLEDRONICO FRASCO AMPOLLA X 5ML A) 4 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7702057014216",
+		"Codigo_Cum" : "20103181-17",
+		"Embalaje" : "USO INSTITUCIONAL: CAJA POR 30 TABLETAS EN BLISTER PVC/PVDC/ALU POR 10 TABLETAS CADA UNO.",
+		"Id_Producto" : "18460",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "GRANULES INDIA LIMITED",
+		"Laboratorio_Generico" : "TECNOQUIMICAS S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-10-30",
+				"Id_Inventario" : 0,
+				"Lote" : "8M2995A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "18460",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "FENALGEX (ACETAMINOFEN COMPRESSO PAP 87 S (CADA 100 G CONTIENE: ACETAMINOFEN 87G. ALMIDON PREGELATINIZADO 7.6 G. POLIVINILPIRROLIDONA K-30 1.4 G. ACIDO ESTEARICO 1 G. CROSCARMELOSA SODICA 3 G ) EQUIVALENTE A ACETAMINOFEN TABLETA A) 325 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702123006138",
+		"Codigo_Cum" : "20029236-2",
+		"Embalaje" : "CAJA POR 28 COMPRIMIDOS EN BLAÂSTER ALUMINIO/PVC-PVDC X 7UND C/U",
+		"Id_Producto" : "54218",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BAYER HEALTHCARE MANUFACTURING S.R.L.",
+		"Laboratorio_Generico" : "BAYER A.G.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "28",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-05-30",
+				"Id_Inventario" : 0,
+				"Lote" : "BXJ9851"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54218",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "XARE",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "XARELTO 15 MG COMPRIMIDOS RECUBIERTOS (RIVAROXABAN MICRONIZADO  A) 15 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "120",
+		"Codigo_Barras" : "7707059701775",
+		"Codigo_Cum" : "20059955-4",
+		"Embalaje" : "CAJA DE MAULE PLEGADIZA CON 12 BLISTERS DE ALUMINIO/PVC-PVDC TRANSPARENTE POR 10 TABLETAS CADA UNO.",
+		"Id_Producto" : "24472",
+		"Imagen" : "5b6b7069b1bbf.jpg",
+		"Laboratorio_Comercial" : "CIPLA LTD.. VERNA. SALCETTE. GOA.",
+		"Laboratorio_Generico" : "MEDISPRAY LABORATORIES PVT LTD.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "100",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2020-11-30",
+				"Id_Inventario" : "126266",
+				"Id_Producto" : "24472",
+				"Lote" : "GJ90238"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 4,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2020-11-30",
+				"Id_Inventario" : 0,
+				"Lote" : "GJ90238"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CAPE5GKA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "KAXEL 500 MG (CAPECITABINA TABLETA CUBIERTA CON PELICULA A) 500 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "8901117153875",
+		"Codigo_Cum" : "19944708-1",
+		"Embalaje" : "CAJA DE CARTON DUPLEX POR 10 TABLETAS EN BLISTER ALU- PVC/PE/PVDC AMBAR CON 10 TABLETAS CADA BLISTER",
+		"Id_Producto" : "33495",
+		"Imagen" : "5b60d4904235a.jpeg",
+		"Laboratorio_Comercial" : "BIOTOSCANA S.A.",
+		"Laboratorio_Generico" : "BIOTOSCANA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "120",
+				"Cantidad_Inventario" : "230",
+				"Fecha_Vencimiento" : "2022-01-30",
+				"Id_Inventario" : "105135",
+				"Id_Producto" : "33495",
+				"Lote" : "GJ90206"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "90",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "GJ80930"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "33495",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "TAM",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ONCOTAMOX 20 MG TABLETAS (TAMOXIFENO CITRATO 30.40MG EQUIVALENTE A TAMOXIFENO TABLETA A) 20 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "8901117154001",
+		"Codigo_Cum" : "19984840-1",
+		"Embalaje" : "CAJA X 1 BLISTER PVC/PVDC/ALU X 10 TABLETAS",
+		"Id_Producto" : "33477",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "AVALON PHARMACEUTICAL S.A",
+		"Laboratorio_Generico" : "CIPLA LIMITED",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "120",
+				"Cantidad_Inventario" : "130",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "122023",
+				"Id_Producto" : "33477",
+				"Lote" : "GG90769"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ONCOEMET (ONDANSETRON HIDROCLORURO DIHYDRATO 10MG EQUIVALENTE A ONDANSETRON TABLETA A) 8 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702605181087",
+		"Codigo_Cum" : "11699-2",
+		"Embalaje" : "TUBO COLAPSIBLE DE ALUMINIO POR 60G. EN CAJA",
+		"Id_Producto" : "24724",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "GENFAR S.A.",
+		"Laboratorio_Generico" : "GENFAR S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "122046",
+				"Id_Producto" : "24724",
+				"Lote" : "9GC4608A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "KETO60GF",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "KETOPROFENO GEL (KETOPROFENO GEL TOPICO D) 3 g"
+	},
+	{
+		"Cantidad_Presentacion" : "60",
+		"Codigo_Barras" : "7707355054803",
+		"Codigo_Cum" : "20024180-16",
+		"Embalaje" : "CAJA POR 60 CAPSULAS EN BLISTER PVC/PVDC TRANSPARENTE ALUMINIO POR 10 CAPSULAS CADA BLISTER",
+		"Id_Producto" : "32379",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS SIEGFRIED S.A.S",
+		"Laboratorio_Generico" : "LABORATORIOS SIEGFRIED S.A.S",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "60",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "127628",
+				"Id_Producto" : "32379",
+				"Lote" : "07700719"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "NORTRICOL 200 CAPSULAS (FENOFIBRATO MICRONIZADO CAPSULA DURA A) 200 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703153029494",
+		"Codigo_Cum" : "20099011-2",
+		"Embalaje" : "CAJA POR 100 CAPSULAS DURAS EN 10 BLISTER POR 10 CAPSULAS DURAS PVDC/PVC",
+		"Id_Producto" : "28987",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALKEM LABORATORIES LIMITED",
+		"Laboratorio_Generico" : "ALKEM LABORATORIES LTD",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "20",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2020-05-30",
+				"Id_Inventario" : "80185",
+				"Id_Producto" : "28987",
+				"Lote" : "4209709"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 30,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : 0,
+				"Lote" : "4209715"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "MICOFENOLATO DE MOFETILO CAPSULAS 250 MG (MICOFENOLATO DE MOFETILO CAPSULA DURA A) 250 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7707236124496",
+		"Codigo_Cum" : "20043426-2",
+		"Embalaje" : "CAJA CON 10 VIALES DE VIDRIO TIPO I INCOLORA ETIQUETADAS O PIROGRABADAS POR 5ML",
+		"Id_Producto" : "54148",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "VITALIS S.A.C.I PLANTA 8",
+		"Laboratorio_Generico" : "VITALIS S.A. C.I.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "10",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : "130258",
+				"Id_Producto" : "54148",
+				"Lote" : "P191617"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : 0,
+				"Lote" : "P191054"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54148",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "HIRRSACA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "HIERRO SACAROSA (EQUIVALENTE A HIERRO ELEMENTAL 100 MG/5 ML) (HIERRO SACAROSA 1754.00 MG( EQUIVALENTE A HIERRO ELEMENTAL )  A) 100 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "4",
+		"Codigo_Barras" : "7702605181612",
+		"Codigo_Cum" : "19993835-4",
+		"Embalaje" : "CAJA CON BLISTER DE PVC 250 MICRONES X 134 MM /ALUMINIO POR CUATRO (4) TABLETAS EN CAJA.",
+		"Id_Producto" : "39978",
+		"Imagen" : "5b6236ce331af.jpeg",
+		"Laboratorio_Comercial" : "GENFAR S.A.",
+		"Laboratorio_Generico" : "GENFAR S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "144",
+				"Cantidad_Inventario" : "276",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "102694",
+				"Id_Producto" : "39978",
+				"Lote" : "9GC1374H"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SILDGF",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SILDENAFILO 50MG TABLETAS RECUBIERTAS (SILDENAFILO CITRATO 70.238 MG EQUIVALENTE A SILDENAFILO BASE 50 MG TABLETA RECUBIERTA A) 50 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7703153011529",
+		"Codigo_Cum" : "19935634-1",
+		"Embalaje" : "CAJA POR 30 CAPSULAS EN BLISTER PVC/FOIL ALUMINIO POR 10 CAPSULAS",
+		"Id_Producto" : "21134",
+		"Imagen" : "5dc33573188f5.jpg",
+		"Laboratorio_Comercial" : "PROCAPS S.A.",
+		"Laboratorio_Generico" : "PROCAPS S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : 0,
+				"Lote" : "1213330"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "21134",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GESTAFER (ACIDO FOLICO CAPSULA BLANDA A) 1000 mcg"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "4030855510122",
+		"Codigo_Cum" : "19951088-8",
+		"Embalaje" : "USO INSTITUCIONAL: CAJA POR 100 TABLETAS EN BLISTER ALUMINIO/PVC.",
+		"Id_Producto" : "11073",
+		"Imagen" : "5b5f239aa23ec.jpg",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANDOZ GMBH",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "4570",
+				"Cantidad_Inventario" : "4760",
+				"Fecha_Vencimiento" : "2020-06-30",
+				"Id_Inventario" : "35733",
+				"Id_Producto" : "11073",
+				"Lote" : "JD1229"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "230",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : "112134",
+				"Id_Producto" : "11073",
+				"Lote" : "JJ3458"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "COR25",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "CORYOL  TABLETAS 25 MG (CARVEDILOL TABLETA A) 25 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7707141301111",
+		"Codigo_Cum" : "21531-1",
+		"Embalaje" : "PRESENTACION COMERCIAL: CAJA PLEGADIZA DE CARTULINA CON 5 BLISTER DE PVC/PVDC/ALUMINIO POR 10 GRAGEAS CADA BLISTER.",
+		"Id_Producto" : "15634",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "HAUPT PHARMA AMAREG. GMBH",
+		"Laboratorio_Generico" : "BAXTER ONCOLOGY GMBH",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-11-30",
+				"Id_Inventario" : "85366",
+				"Id_Producto" : "15634",
+				"Lote" : "8K012A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ENDOXAN  GRAGEAS 50 MG (CICLOFOSFAMIDA MONOHIDRATO EQUIVALENTE A CICLOFOSFAMIDA BASE TABLETA CUBIERTA (GRAGEA) A) 50 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "21",
+		"Codigo_Barras" : "7703153015763",
+		"Codigo_Cum" : "19941307-1",
+		"Embalaje" : "CAJA X 21 TABLETAS RECUBIERTAS EN BLISTER ALUMINIO/PVDC X 7 TABLETAS RECUBIERTAS CADA UNO.",
+		"Id_Producto" : "30193",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "PROCAPS S.A.",
+		"Laboratorio_Generico" : "PROCAPS S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : "129859",
+				"Id_Producto" : "30193",
+				"Lote" : "1255658"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "MUVETT S (SIMETICONA TABLETA RECUBIERTA A) 120 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "120",
+		"Codigo_Barras" : "7709149981487",
+		"Codigo_Cum" : "20121605-2",
+		"Embalaje" : "CAJA POR 120 TABLETAS GASTRORRESISTENTES EN DOCE BLISTER ALU-ALU",
+		"Id_Producto" : "54825",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "INTAS PHARMACEUTICALS LIMITED",
+		"Laboratorio_Generico" : "INTAS PHARMACEUTICALS LIMITED",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "89058",
+				"Id_Producto" : "54825",
+				"Lote" : "X18320"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "MYCOTAS 180 MG TABLETAS GASTRORRESISTENTES (MICOFENATO SODICO 192.35 MG EQUIVALENTE A ACIDO MICOFENOLICO TABLETA GASTRORRESISTENTE A) 180 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "60",
+		"Codigo_Barras" : "7702771260111",
+		"Codigo_Cum" : "51881-1",
+		"Embalaje" : "CAJA X 60 TABLETAS RECUBIERTAS EN BLISTER CON 10 TABLETAS CADA UNO.",
+		"Id_Producto" : "38931",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "PATHEON FRANCE S.A",
+		"Laboratorio_Generico" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "55587",
+				"Id_Producto" : "38931",
+				"Lote" : "8843"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SAB",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SABRIL (VIGABATRINA TABLETA CUBIERTA CON PELICULA A) 500 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7501033959813",
+		"Codigo_Cum" : "20019972-5",
+		"Embalaje" : "PRESENTACION COMERCIAL: CAJA POR 50 CAPSULAS DURAS CON MICROGRANULOS DE LIBERACION RETARDADA EN BLISTER DE ALUMINIO / ALUMINIO.",
+		"Id_Producto" : "11264",
+		"Imagen" : "5b61d603f030c.jpg",
+		"Laboratorio_Comercial" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "LABORATORIO FRANCO COLOMBIANO LAFRANCOL S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "130",
+				"Fecha_Vencimiento" : "2020-12-01",
+				"Id_Inventario" : "115680",
+				"Id_Producto" : "11264",
+				"Lote" : "04140MC"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CR25UI",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CREON CAPSULAS 25000 (PANCREATINA CORRESPONDIENTE A: 18.000 U DE AMILASA. 25.000 U DE LIPASA. 1000 U DE PROTEASAS TOTALES CAPSULA DURA A) 300 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7703153032890",
+		"Codigo_Cum" : "20107054-7",
+		"Embalaje" : "CAJA DISPENSADORA POR 100 CAPSULAS BLANDAS DE GELATINA. EN BLISTER PVC-PVDC INCOLORO/ALUMINIO POR 10 CAPSULAS BLANDAS DE GELATINA. CON O SIN SOBRE PORTABLISTER.",
+		"Id_Producto" : "45970",
+		"Imagen" : "5b632773bd2bd.jpg",
+		"Laboratorio_Comercial" : "PROCAPS S.A.",
+		"Laboratorio_Generico" : "COLMED LTDA",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "200",
+				"Cantidad_Inventario" : "170",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : "122024",
+				"Id_Producto" : "45970",
+				"Lote" : "1260341"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 70,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "1244605"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "VID3P",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "VITAMINA D3 1000 UI (VITAMINA D3 (1000000 UI/G) 1.0 MG EQUIVALENTES A VITAMINA D3 CAPSULA BLANDA A) 1000 UI"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7705959013066",
+		"Codigo_Cum" : "19984678-01",
+		"Embalaje" : "CAJA POR 30 CAPSULAS RETARD EN BLISTER PVDC/PVC/ALUMINIO POR 10 CAPSULAS CADA UNO.",
+		"Id_Producto" : "54297",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "CIPLA LTD.",
+		"Laboratorio_Generico" : "WINTHROP PHARMACEUTICALS DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9CL2575"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54297",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "TAMS",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "TAMSULOSINA 0.4 MG CAPSULAS RETARD (TAMSULOSINA CLORHIDRATO 0.11% 364.0 MG DE PELLETS EQUIVALENTES A TAMSULOSINA CLORHIDRATO AL 100% CAPSULA RETARD A) 0 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "9002260016860",
+		"Codigo_Cum" : "19984810-1",
+		"Embalaje" : "CAJA POR 20 TABLETAS EN BLISTER ALUMINIO/ALUMINIO.",
+		"Id_Producto" : "43046",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANDOZ GMBH",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-10-30",
+				"Id_Inventario" : 0,
+				"Lote" : "JL6210"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "43046",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "TOPIRAMATO SANDOZ  100 MG TABLETAS CUBIERTAS (TOPIRAMATO TABLETA RECUBIERTA A) 100 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7707367050541",
+		"Codigo_Cum" : "20046741-4",
+		"Embalaje" : "CAJA POR 100 TABLETAS EN BLISTER DE PVC TRANSPARENTE / ALUMINIO POR 10 TABLETAS CADA UNO.",
+		"Id_Producto" : "31680",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NUTRI MACK S.A.S.",
+		"Laboratorio_Generico" : "SALUSPHARMA LABS S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "210",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "19G35"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "31680",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "COD325",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "NODOL FORTE TABLETAS (ACETAMINOFEN TABLETA A) 325 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "200",
+		"Codigo_Barras" : "7703546702744",
+		"Codigo_Cum" : "20038519-19",
+		"Embalaje" : "CAJA POR 200 TABLETAS EN BLISTER PVC TRANSPARENTE /FOIL ALUMINIO.",
+		"Id_Producto" : "50455",
+		"Imagen" : "5b6b6e498bcb4.jpeg",
+		"Laboratorio_Comercial" : "C.I. FARMACAPSULAS S.A.",
+		"Laboratorio_Generico" : "C.I. FARMACAPSULAS S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-01-30",
+				"Id_Inventario" : "81341",
+				"Id_Producto" : "50455",
+				"Lote" : "1811001727"
+			},
+			{
+				"Cantidad_Encontrada" : "400",
+				"Cantidad_Inventario" : "880",
+				"Fecha_Vencimiento" : "2021-06-30",
+				"Id_Inventario" : "108719",
+				"Id_Producto" : "50455",
+				"Lote" : "1905000599"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : "115826",
+				"Id_Producto" : "50455",
+				"Lote" : "13410818"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "90",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "115841",
+				"Id_Producto" : "50455",
+				"Lote" : "19001001694"
+			},
+			{
+				"Cantidad_Encontrada" : "300",
+				"Cantidad_Inventario" : "130",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "122018",
+				"Id_Producto" : "50455",
+				"Lote" : "1905000600"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ACE0101",
+		"Mensaje" : "Se encontraron 5 Lotes de este Producto",
+		"Nombre" : "ACETAMINOFEN 325 MG + CODEINA FOSFATO 30 MG TABLETAS (CODEINA FOSFATO HEMIHIDRATO 30.68MG EQUIVALENTE A CODEINA FOSFATO  A) 30 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7702635122890",
+		"Codigo_Cum" : "49176-2",
+		"Embalaje" : "CAJA POR 50 TABLETAS EN BLISTER DE PVC/PE/PVDC - ALUMINIO. CADA BLISTER POR 10 TABLETAS",
+		"Id_Producto" : "26438",
+		"Imagen" : "5b621dc388995.jpg",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "NOVARTIS PHARMA STEIN A.G. PHARMACEUTICAL OPERATIONS SCHEWEIZ",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "100",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : "129854",
+				"Id_Producto" : "26438",
+				"Lote" : "TR748"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LI10TBNV",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "LIORESAL 10 MG COMPRIMIDOS (BACLOFENO TABLETA A) 10 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7704039390967",
+		"Codigo_Cum" : "19929866-3",
+		"Embalaje" : "CAJA POR 100 CAPSULAS EN BLISTER PVC/PVDC-ALUMINIO.",
+		"Id_Producto" : "54214",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS LEGRAND S.A.",
+		"Laboratorio_Generico" : "LABORATORIOS LEGRAND S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "90",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "75915",
+				"Id_Producto" : "54214",
+				"Lote" : "BR1809"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "KAP400",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "KAPTIN 400 CAPSULAS (GABAPENTIN  A) 400 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7703712030787",
+		"Codigo_Cum" : "20012677-2",
+		"Embalaje" : "CAJA PLEGADIZA POR 2 TABLETAS EN BLISTER PVC/ALUMINIO",
+		"Id_Producto" : "39974",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "COASPHARMA S.A.S.",
+		"Laboratorio_Generico" : "PENTACOOP S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "117306",
+				"Id_Producto" : "39974",
+				"Lote" : "18839"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SILDENAFILO 50 MG TABLETAS (SILDENAFILO CITRATO 70.225MG EQUIVALENTE A SILDENAFILO BASE TABLETA RECUBIERTA A) 50 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703258113036",
+		"Codigo_Cum" : "37223-10",
+		"Embalaje" : "FRASCO DE PEAD BLANCO CON TAPA DE SEGURIDAD. POR 360 ML DE SUSPENSION SABOR MENTA SOLUBLE.",
+		"Id_Producto" : "543",
+		"Imagen" : "5dc337fdc81b9.jpg",
+		"Laboratorio_Comercial" : "BIOGEN LABORATORIOS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "GRUNENTHAL COLOMBIANA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : 0,
+				"Lote" : "623639"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "543",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "ACI-BIOGEL SUSPENSION (GEL FLUIDO DE HIDROXIDO DE ALUMINIO. EQUIVALENTE A HIDROXIDO DE ALUMINIO SUSPENSION ORAL B) 4 g"
+	},
+	{
+		"Cantidad_Presentacion" : "28",
+		"Codigo_Barras" : "7612797378663",
+		"Codigo_Cum" : "20008022-5",
+		"Embalaje" : "CAJA POR 28 CAPSULAS DURAS EN BLISTER PVC-ALU.",
+		"Id_Producto" : "17835",
+		"Imagen" : "5b5f44760ba35.jpg",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "NOVARTIS PHARMA AG",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "28",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : 0,
+				"Lote" : "BAE09"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "17835",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "7612797378663",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "EXELON CAPSULAS 4.5 MG (RIVASTIGMINA HIDROGENO TARTRATO EQUIVALENTE A RIVASTIGMINA BASE CAPSULA DURA A) 5 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702605180622",
+		"Codigo_Cum" : "1982542-1",
+		"Embalaje" : "TUBO COLAPSIBLE DE ALUMINIO POR 50G EN CAJA INDIVIDUAL",
+		"Id_Producto" : "50216",
+		"Imagen" : "5b5b4f8e74082.jpeg",
+		"Laboratorio_Comercial" : "GENFAR S.A.",
+		"Laboratorio_Generico" : "GENFAR S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2022-06-30",
+				"Id_Inventario" : "117051",
+				"Id_Producto" : "50216",
+				"Lote" : "9GC3234A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9GC3776A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "50216",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "DICG",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "DICLOFENACO GEL AL 1% (DICLOFENACO DIETILAMINA BP 1.160 G ( EQUIVALENTE A DICLOFENACO SODICO)  D) 1 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7709990543476",
+		"Codigo_Cum" : "JABQUI250ML",
+		"Embalaje" : "TARRO X 250 ML",
+		"Id_Producto" : "54822",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ZUMOTEC- ALFAMEDICAL ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "3",
+				"Fecha_Vencimiento" : "2020-04-25",
+				"Id_Inventario" : "116025",
+				"Id_Producto" : "54822",
+				"Lote" : "111818"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JABON -CLORHEXIDINA 4%)FRASCO x 250 ML LAB-ZUMOTEC- ALFAMEDICAL "
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7705137400312",
+		"Codigo_Cum" : "41911-3",
+		"Embalaje" : "POTE DE POLIETILENO DE ALTA DENSIDAD POR 453 G.",
+		"Id_Producto" : "44891",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS OSA S.A.S",
+		"Laboratorio_Generico" : "LABORATORIOS OSA S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "5",
+				"Cantidad_Inventario" : "8",
+				"Fecha_Vencimiento" : "2020-12-30",
+				"Id_Inventario" : "44191",
+				"Id_Producto" : "44891",
+				"Lote" : "6046"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-01-30",
+				"Id_Inventario" : 0,
+				"Lote" : "5187"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "44891",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "VASEOS",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "VASELINA PURA OSA (PETROLATO BLANCO UNGUENTO TOPICO D) 100 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7704588000720",
+		"Codigo_Cum" : "39002-3",
+		"Embalaje" : "USO INSTITUCIONAL: CAJA CON TUBO DE ALUMINIO POR 30ML + CANULA DE APLICACION",
+		"Id_Producto" : "38774",
+		"Imagen" : "5b5f7d90bf82c.jpeg",
+		"Laboratorio_Comercial" : "ROPSOHN LABORATORIOS S.A.S",
+		"Laboratorio_Generico" : "ROPSOHN THERAPEUTICS S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "3",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : "92279",
+				"Id_Producto" : "38774",
+				"Lote" : "190286"
+			},
+			{
+				"Cantidad_Encontrada" : "20",
+				"Cantidad_Inventario" : "23",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "99170",
+				"Id_Producto" : "38774",
+				"Lote" : "190402"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ROXI-",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ROXICAINA JALEA AL 2% (LIDOCAINA CLORHIDRATO MONOHIDRATO 2.10345 G EQUIVALENTE A LIDOCAINA CLORHIDRATO JALEA B) 2 g"
+	},
+	{
+		"Cantidad_Presentacion" : "12",
+		"Codigo_Barras" : "7707288825334",
+		"Codigo_Cum" : "20087761-2",
+		"Embalaje" : "CAJA PLEGADIZA POR 12 SACHETS DE P600 POLIESTER ALUMINIO + COE X 15 ML CADA SACHET",
+		"Id_Producto" : "10914",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FARMATECH S.A.",
+		"Laboratorio_Generico" : "HUMAX PHARMACEUTICAL S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "116056",
+				"Id_Producto" : "10914",
+				"Lote" : "9G968"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "36",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "117355",
+				"Id_Producto" : "10914",
+				"Lote" : "9S973"
+			},
+			{
+				"Cantidad_Encontrada" : "36",
+				"Cantidad_Inventario" : "36",
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : "119342",
+				"Id_Producto" : "10914",
+				"Lote" : "9T251"
+			},
+			{
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : "126647",
+				"Id_Producto" : "10914",
+				"Lote" : "9T351"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 4 Lotes de este Producto",
+		"Nombre" : "CONSTILAX 66.7% SOBRES SOLUCION ORAL (LACTULOSA ( 66- 67 % ) EQUIVALENTE A LACTULOSA SOBRES SOLUCION ORAL A) 67 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "8427030004549",
+		"Codigo_Cum" : "20134305",
+		"Embalaje" : "LATA X400G",
+		"Id_Producto" : "54442",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ABBOTT LABORATORIES B.V.",
+		"Laboratorio_Generico" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "4",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "07259NR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54442",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ENSUREADV",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "ENSURE ADVANCE X 400G LAB-ABBOTT LABORATORIES B.V."
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "7707059700280",
+		"Codigo_Cum" : "19963306-2",
+		"Embalaje" : "CAJA POR 30 TABLETAS EN BLISTER ALUMINIO/PVC (AMBAR TRANSPARENTE) MAS INSERTO",
+		"Id_Producto" : "25186",
+		"Imagen" : "5b5f44760f1d7.jpg",
+		"Laboratorio_Comercial" : "CIPLA LTD",
+		"Laboratorio_Generico" : "PINT PHARMA COLOMBIA S.A.S",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2019-11-30",
+				"Id_Inventario" : 0,
+				"Lote" : "PA70014"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "25186",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LAMOTVICH",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "LAMETEC 25 MG TABLETA (LAMOTRIGINA TABLETA A) 25 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703712031388",
+		"Codigo_Cum" : "19956538-1",
+		"Embalaje" : "FRASCO PET AMBAR POR 60 ML. CON TAPA EN POLIPROPILENO DE COLOR BLANCO CON LINER AZUL.",
+		"Id_Producto" : "31465",
+		"Imagen" : "5b6afebccb59f.jpeg",
+		"Laboratorio_Comercial" : "COASPHARMA S.A.S.",
+		"Laboratorio_Generico" : "PENTACOOP S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2020-08-30",
+				"Id_Inventario" : "115819",
+				"Id_Producto" : "31465",
+				"Lote" : "04758"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "NISTACO",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "NISTATINA SUSPENSION (NISTATINA EQUIVALENTES A 10.000.000 UI SUSPENSION ORAL B) 2000 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7803920002108",
+		"Codigo_Cum" : "20054699-3",
+		"Embalaje" : "CAJA PLEGADIZA POR 10 VIALES DE VIDRIO TIPO II CON TAPON DE CAUCHO DE BUTILO Y TAPA PLASTICA CON AGRAFE DE ALUMINIO",
+		"Id_Producto" : "35258",
+		"Imagen" : "5b6095e99409e.jpeg",
+		"Laboratorio_Comercial" : "NORTH CHINA PHARMACEUTICAL CO LTD",
+		"Laboratorio_Generico" : "NORTH CHINA PHARMACEUTICAL CO LTD",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "99",
+				"Fecha_Vencimiento" : "2020-03-30",
+				"Id_Inventario" : "21940",
+				"Id_Producto" : "35258",
+				"Lote" : "170308"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PE1200INYUN",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PENICILINA G BENZATINICA 2.400.000 UI (PENICILINA G BENZATINICA 2.0G EQUIVALENTE A BENCILPENICILINA BENZATINICA POLVO ESTERIL PARA RECONSTITUIR A SUSPENSION INYECTABLE A) 240000 UI"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "4021447242521",
+		"Codigo_Cum" : "TGFIXC",
+		"Embalaje" : "UNID",
+		"Id_Producto" : "54918",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LOHMANN & RAUSCHER INTERNACIONAL GMBH & CO KG",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-12-31",
+				"Id_Inventario" : "100785",
+				"Id_Producto" : "54918",
+				"Lote" : "190457252"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "MALLA TUBULAR TG FIX TALLA 13/4 o 4.5 CMS C  LAB-LOHMANN & RAUSCHER INTERNACIONAL GMBH & CO KG"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "021292005443",
+		"Codigo_Cum" : "LANCENIPRO",
+		"Embalaje" : "CAJA X 100",
+		"Id_Producto" : "53042",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NIPRO",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "1528",
+				"Fecha_Vencimiento" : "2021-03-14",
+				"Id_Inventario" : "21854",
+				"Id_Producto" : "53042",
+				"Lote" : "160243NM"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LANCENIPRO",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "LANCETA PRESTIGE SUAVE (100) LAB-NIPRO"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7707288822975",
+		"Codigo_Cum" : "20014926-3",
+		"Embalaje" : "CAJA POR 10 TABLETAS EN 1 FOIL POR 10 TABLETAS.",
+		"Id_Producto" : "23615",
+		"Imagen" : "5b5f239a9e260.jpg",
+		"Laboratorio_Comercial" : "FARMATECH S.A.",
+		"Laboratorio_Generico" : "HUMAX PHARMACEUTICAL S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-03-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9M313"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-11-30",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "23615",
+				"Lote" : "8N530"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "23615",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ARI",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "IPIPRAL 15 MG TABLETA (ARIPIPRAZOL TABLETA A) 15 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186031440",
+		"Codigo_Cum" : "20107045",
+		"Embalaje" : "FCO X 125ML ",
+		"Id_Producto" : "53852",
+		"Imagen" : "5b6c72a819c60.jpg",
+		"Laboratorio_Comercial" : "ABBOTT                           ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "40",
+				"Fecha_Vencimiento" : "2020-04-30",
+				"Id_Inventario" : "117359",
+				"Id_Producto" : "53852",
+				"Lote" : "04308NR"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 31,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2020-06-30",
+				"Id_Inventario" : 0,
+				"Lote" : "06647NR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ENSCOMP",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ENSURE COMPACT RPB (CAJA) (4) LAB-ABBOTT                           "
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7709990304015",
+		"Codigo_Cum" : "JABQUICLO120MUL",
+		"Embalaje" : "CAJA X 48",
+		"Id_Producto" : "52954",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "MULTICORD-ZUMOTEC",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2021-10-03",
+				"Id_Inventario" : "116997",
+				"Id_Producto" : "52954",
+				"Lote" : "124819"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JABQUICLO120MUL",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JABON QUIRURGICO + CLOREXIDINA AL 4% + CETIRIMIDA FRASCO x 120 ML MULTICORD LAB-MULTICORD-ZUMOTEC"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186030108",
+		"Codigo_Cum" : "20134305-1",
+		"Embalaje" : "LATA X 850",
+		"Id_Producto" : "53846",
+		"Imagen" : "5b6cc6b339196.jpg",
+		"Laboratorio_Comercial" : "ABBOTT                           ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "5",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "116033",
+				"Id_Producto" : "53846",
+				"Lote" : "07280NR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ENSADVA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ENSURE ADVANCE POLVO X 850G LAB-ABBOTT                           "
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "8710428012784",
+		"Codigo_Cum" : "19936985-1",
+		"Embalaje" : "LATA X 250 ML",
+		"Id_Producto" : "54847",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ABBOTT LABORATORIES B.V",
+		"Laboratorio_Generico" : "ABBOTT DIAGNOSTICS",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "4",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-03-03",
+				"Id_Inventario" : 0,
+				"Lote" : "03603NR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54847",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GLUCERNA 1.0 x 250 ml LAB-ABBOTT LABORATORIES B.V"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702635143512",
+		"Codigo_Cum" : "1980885-01",
+		"Embalaje" : "FRASCO DE VIDRIO AMBAR TIPO III CON TAPA A PRUEBA DE NIAÂ„AÂ„OS POR 100 ML. EN CAJA",
+		"Id_Producto" : "54363",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A",
+		"Laboratorio_Generico" : "NOVARTIS PHARMA AG",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "6",
+				"Cantidad_Inventario" : "9",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : "81591",
+				"Id_Producto" : "54363",
+				"Lote" : "ADPAF0322"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2021-05-31",
+				"Id_Inventario" : "121479",
+				"Id_Producto" : "54363",
+				"Lote" : "ADPAF0395"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "TRILEPTALAÂ® 6 % SUSPENSION (OXCARBAZEPINA EN 100 ML. DE SUSPENSION B) 6000 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7709741710799",
+		"Codigo_Cum" : "20062823-1",
+		"Embalaje" : "CAJA CON UN FRASCO GOTERO TRANSPARENTE DE POLIETILENO DE BAJA DENSIDAD(LDPE) CON TAPA BLANCA EN POLIESTIRENO DE ALTO IMPACTO POR 10ML.",
+		"Id_Producto" : "955",
+		"Imagen" : "5b637bb0e7b64.jpg",
+		"Laboratorio_Comercial" : "FDC LIMITED",
+		"Laboratorio_Generico" : "XINETIX PHARMA SAS",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2020-06-30",
+				"Id_Inventario" : "21820",
+				"Id_Producto" : "955",
+				"Lote" : "088H010"
+			},
+			{
+				"Cantidad_Encontrada" : "15",
+				"Cantidad_Inventario" : "17",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "118185",
+				"Id_Producto" : "955",
+				"Lote" : "089H109"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CARBNOV",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ACUXIM (CARMELOSA SODICA SOLUCION OFTALMICA C) 5 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186030191",
+		"Codigo_Cum" : "20081872",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "53882",
+		"Imagen" : "5b6cbbd9cbd53.jpg",
+		"Laboratorio_Comercial" : "ABBOTT                           ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 30,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2020-09-01",
+				"Id_Inventario" : 0,
+				"Lote" : "05223RA0"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "NEPROB",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "NEPRO BP X 237ML (8 ONZ) LAB-ABBOTT                           "
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186069917",
+		"Codigo_Cum" : "20082529",
+		"Embalaje" : "LATA X 237G",
+		"Id_Producto" : "54414",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "120",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2020-04-01",
+				"Id_Inventario" : "122028",
+				"Id_Producto" : "54414",
+				"Lote" : "03730RA0"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PULMOCAB",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PULMOCARE (237 G) LAB-ABBOTT LABORATORIES DE COLOMBIA S.A."
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186031068",
+		"Codigo_Cum" : "20111478",
+		"Embalaje" : "FRASCO X 237ML",
+		"Id_Producto" : "53858",
+		"Imagen" : "5b6c72a815b67.jpg",
+		"Laboratorio_Comercial" : "ABBOTT                           ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "12",
+				"Fecha_Vencimiento" : "2021-07-01",
+				"Id_Inventario" : "115704",
+				"Id_Producto" : "53858",
+				"Lote" : "03282RR"
+			},
+			{
+				"Cantidad_Encontrada" : "75",
+				"Cantidad_Inventario" : "75",
+				"Fecha_Vencimiento" : "2020-09-01",
+				"Id_Inventario" : "132692",
+				"Id_Producto" : "53858",
+				"Lote" : "05674RR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ENSUPHN",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ENSURE PLUS HN X 237ML (8 ONZ) LAB-ABBOTT                           "
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7702338200321",
+		"Codigo_Cum" : "19914809-6",
+		"Embalaje" : "CAJA POR 100 GRAGEAS EN BLISTER DE PVC/PE/ACLAR/ALUMINIO.",
+		"Id_Producto" : "37520",
+		"Imagen" : "5b68d236eac7a.jpg",
+		"Laboratorio_Comercial" : "PFIZER IRELAND PHARMACEUTICALS",
+		"Laboratorio_Generico" : "PFIZER S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "50",
+				"Cantidad_Inventario" : "50",
+				"Fecha_Vencimiento" : "2020-02-29",
+				"Id_Inventario" : "87125",
+				"Id_Producto" : "37520",
+				"Lote" : "X50473"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "RAPWY",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "RAPAMUNE 1.0 MG GRAGEAS (SIROLIMUS 1 MG (EQUIVALENTE A DISPERSION DE SIROLIMUS DE NANOSISTEMAS 150MG/G (D). 1.53 MG TABLETA CUBIERTA (GRAGEA) A) 1 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7640149616873",
+		"Codigo_Cum" : "204751-2",
+		"Embalaje" : "CAJA POR 100 CAPSULAS EN BLISTER PVC/ALUMINIO.",
+		"Id_Producto" : "50468",
+		"Imagen" : "5b6b068719495.jpg",
+		"Laboratorio_Comercial" : "DELPHARM MILANO S.R.L.",
+		"Laboratorio_Generico" : "F. HOFFMANN-LA ROCHE LTD. BASILEA - SUIZA",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "20",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2020-11-30",
+				"Id_Inventario" : "75888",
+				"Id_Producto" : "50468",
+				"Lote" : "M1746B07"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CELL250",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CELLCEPT ROCHE CAPSULAS 250 MG (MICOFENOLATO DE MOFETILO  A) 250 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7709272445962",
+		"Codigo_Cum" : "19983583-1",
+		"Embalaje" : "CAJA - BLISTER PVDC/PVC/AL X 50 CAPSULAS",
+		"Id_Producto" : "50462",
+		"Imagen" : "5b68d236e814c.jpg",
+		"Laboratorio_Comercial" : "ASTELLAS FARMA COLOMBIA S.A.S.",
+		"Laboratorio_Generico" : "ASTELLAS FARMA US. INC",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "20",
+				"Cantidad_Inventario" : "80",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "109805",
+				"Id_Producto" : "50462",
+				"Lote" : "1M3777A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PRO1MGXLJA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PROGRAF AAAÂ® XL CAPSULAS DE LIBERACION PROLONGADA DE 1 MG (TACROLIMUS  A) 1 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7709272445917",
+		"Codigo_Cum" : "19983585-1",
+		"Embalaje" : "CAJA CON-BLISTER PVDC/PVC/AL X 50 CAPSULAS",
+		"Id_Producto" : "50470",
+		"Imagen" : "5b6b06871bcc8.jpg",
+		"Laboratorio_Comercial" : "ASTELLAS IRELAND CO. LTD",
+		"Laboratorio_Generico" : "ASTELLAS PHARMA US. INC",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "20",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2021-03-30",
+				"Id_Inventario" : "93149",
+				"Id_Producto" : "50470",
+				"Lote" : "5M3470A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PRO5MGXLJA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PROGRAF AAÂ® XL CAPSULAS DE LIBERACION PROLONGADA DE 5 MG (TACROLIMUS  A) 5 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "40",
+		"Codigo_Barras" : "770263572516-1",
+		"Codigo_Cum" : "19988218-16",
+		"Embalaje" : "CAJA X 40 CAPSULAS EN 10 BLISTER DE PVC/PVDC POR 4 CAPPSULAS CADA UNO.",
+		"Id_Producto" : "50467",
+		"Imagen" : "5b6b068717a7d.jpg",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "NOVARTIS PHARMA A.G.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "87309",
+				"Id_Producto" : "50467",
+				"Lote" : "SJF34"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "22",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-12-30",
+				"Id_Inventario" : 0,
+				"Lote" : "SNK44"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "50467",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "TASI",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "TASIGNA 200 MG CAPSULAS (NILOTINIB CLORHIDRATO MONOHIDRATADO 220.6 MG EQUIVALENTE A NILOTINIB BASE ANHIDRA 200 MG  A) 200 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7707184310514",
+		"Codigo_Cum" : "19901625-01",
+		"Embalaje" : "CAJA DE CARTON POR 10 BLISTER POR 10 CAPSULAS DURAS CADA UNO.",
+		"Id_Producto" : "54517",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "HAUPT PHARMA AMAREG. GMBH",
+		"Laboratorio_Generico" : "MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE M.B.H",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "50",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-06-30",
+				"Id_Inventario" : 0,
+				"Lote" : "6197152"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54517",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SY",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "HYDROXYUREA 500 MG CAPSULAS (HIDROXIUREA (HIDROXICARBAMIDA) CAPSULA DURA A) 500 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "8901109317025",
+		"Codigo_Cum" : "20024899-2",
+		"Embalaje" : "CAJA POR 50 CAPSULAS EN BLISTER PVC/PE/PVDC/ALUMINIO CON TAMIZ MOLECULAR EN BOLSA TRILAMINADA POR 10 CAPSULAS",
+		"Id_Producto" : "41309",
+		"Imagen" : "5b5f9d429e8a7.jpg",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANDOZ GMBH",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "40",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-01-30",
+				"Id_Inventario" : 0,
+				"Lote" : "JT0702"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "41309",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "TACRSZ1",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "TACROLIMUS 1 MG CAPSULAS (TACROLIMUS MONOHIDRATO 1. 022 MG EQUIVALENTE A TACROLIMUS CAPSULA DURA A) 1 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "8901109327017",
+		"Codigo_Cum" : "20038752-1",
+		"Embalaje" : "CAJA POR 50 TABLETAS RECUBIERTAS EN BLISTER PVC/PE/PVDC/ALU",
+		"Id_Producto" : "54545",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "SANDOZ PRIVATE LIMITED",
+		"Laboratorio_Generico" : "SANDOZ GMBH",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : 0,
+				"Lote" : "JH9534"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54545",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "MICOFENOLATO MOFETILO 500 MG SANDOZ (MICOFENOLATO DE MOFETILO TABLETA RECUBIERTA A) 500 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7705366901024",
+		"Codigo_Cum" : "20055558-1",
+		"Embalaje" : "BOLSA GRADO MEDICO X 100 ML EN POLIVINILCLORURO (PVC )CON SOBREBOLSA DE POLIETILENO DE ALTA DENSIDAD(PEAD)",
+		"Id_Producto" : "40339",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "CORPORACION DE FOMENTO ASISTENCIAL DEL HOSPITAL UNIVERSITARIO SAN VICENTE DE PAUL CORPAUL",
+		"Laboratorio_Generico" : "CORPORACION DE FOMENTO ASISTENCIAL DEL HOSPITAL UNIVERSITARIO SAN VICENTE DE PAUL - CORPAUL.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "29",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : "117035",
+				"Id_Producto" : "40339",
+				"Lote" : "3S907042A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SOLUC100",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SODIO CLORURO AL 0.9% (BOLSA X 100 ML) (SODIO CLORURO SOLUCION INYECTABLE C) 1 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "1110003326987824569",
+		"Codigo_Cum" : "CANTRA8.0GC",
+		"Embalaje" : "UNIDAD",
+		"Id_Producto" : "55198",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "GOLDEN CARE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-08-30",
+				"Id_Inventario" : "118990",
+				"Id_Producto" : "55198",
+				"Lote" : "8090118521"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CANULA PARA TRAQUEOSTOMIA CON BALON 8.0 (1) LAB-GOLDEN CARE"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "6946594905076",
+		"Codigo_Cum" : "CANUYANC",
+		"Embalaje" : "CAJA x 100",
+		"Id_Producto" : "52487",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "KYOLING",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2020-08-30",
+				"Id_Inventario" : "122014",
+				"Id_Producto" : "52487",
+				"Lote" : "83411709"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "CANUYANC",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CANULA YANCAUER ADULTO LAB-KYOLING"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "0003698798547",
+		"Codigo_Cum" : "MABITRA",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53122",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BIOLIFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2024-08-30",
+				"Id_Inventario" : "118987",
+				"Id_Producto" : "53122",
+				"Lote" : "510719"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "MABITRA",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "MASCARA TRAQUEOSTOMIA ADULTO BIOLIFE LAB-BIOLIFE"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707228362103",
+		"Codigo_Cum" : "FIX15X10ALF",
+		"Embalaje" : "UNIDAD ",
+		"Id_Producto" : "54730",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA TRADING SAS",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-08-30",
+				"Id_Inventario" : "85380",
+				"Id_Producto" : "54730",
+				"Lote" : "1808001-7"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CINTA QUIRURGICA FIXO STRETCH 15x10 LAB-ALFA TRADING SAS"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707228362097",
+		"Codigo_Cum" : "FIX10X10ALF",
+		"Embalaje" : "CAJA X 1",
+		"Id_Producto" : "52612",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA TRADING SAS",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "11",
+				"Fecha_Vencimiento" : "2023-12-30",
+				"Id_Inventario" : "89036",
+				"Id_Producto" : "52612",
+				"Lote" : "1812001-9"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "FIX10X10ALF",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "CINTA QUIRURGICA FIXO STRETCH 10x10  LAB-ALFA TRADING SAS"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186030276",
+		"Codigo_Cum" : "20091279",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "53848",
+		"Imagen" : "5b6c72a81ad60.jpg",
+		"Laboratorio_Comercial" : "ABBOTT                           ",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "218",
+				"Cantidad_Inventario" : "282",
+				"Fecha_Vencimiento" : "2020-11-01",
+				"Id_Inventario" : "111198",
+				"Id_Producto" : "53848",
+				"Lote" : "07129RR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "112",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-12-01",
+				"Id_Inventario" : 0,
+				"Lote" : "08259RR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "53848",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ENSADVAN",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ENSURE ADVANCE X 237ML (8 ONZ) LAB-ABBOTT                           "
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "4051895009377",
+		"Codigo_Cum" : "20123577",
+		"Embalaje" : "",
+		"Id_Producto" : "55183",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FRESENIUS KABI COLOMBIA S.A.S.",
+		"Laboratorio_Generico" : "FRESENIUS KABI DEUTSCHLAND GMBH",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "15",
+				"Cantidad_Inventario" : "15",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : "127623",
+				"Id_Producto" : "55183",
+				"Lote" : "29NF1439"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "FRESUBIN RENAL 2 KCAL/ML LAB-FRESENIUS KABI COLOMBIA S.A.S."
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702184592014",
+		"Codigo_Cum" : "20066793-5",
+		"Embalaje" : "ENVASE EN (PEAD) BLANCO. TAPA POLIPROPILENO LINER POLIETILENO POR 160 G MAS COPA DOSIFICADORA EN CAJA.",
+		"Id_Producto" : "18256",
+		"Imagen" : "5b60c860082a5.jpg",
+		"Laboratorio_Comercial" : "LABORATORIOS ECAR S.A.",
+		"Laboratorio_Generico" : "LABORATORIOS ECAR S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "21",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "121416",
+				"Id_Producto" : "18256",
+				"Lote" : "1908576"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PEGP",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "FARMALAX 3350 POLVO (POLIETILENGLICOL 3350 POLVO PARA RECONSTITUIR A SOLUCION ORAL E) 100 g"
+	},
+	{
+		"Cantidad_Presentacion" : "200",
+		"Codigo_Barras" : "7703546702737",
+		"Codigo_Cum" : "020038518-22",
+		"Embalaje" : "CAJA POR 200 TABLETAS EN BLISTER PVC TRANS./FOIL ALU.",
+		"Id_Producto" : "55115",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "C.I. FARMACAPSULAS S.A.",
+		"Laboratorio_Generico" : "C.I. FARMACAPSULAS S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Inventario" : "70",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "116061",
+				"Id_Producto" : "55115",
+				"Lote" : "1905000602"
+			},
+			{
+				"Cantidad_Encontrada" : "430",
+				"Cantidad_Inventario" : "420",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "122019",
+				"Id_Producto" : "55115",
+				"Lote" : "1908001682"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : 0,
+				"Lote" : "1901001694"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55115",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ACETAMINOFEN 325 MG + CODEINA FOSFATO 8 MG TABLETAS (CODEINA FOSFATO HEMIDRATO 8.18MG. EQUIVALENTE A CODEINA FOSFATO TABLETA A) 8 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858005004",
+		"Codigo_Cum" : "SONNEL10OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53592",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "550",
+				"Cantidad_Inventario" : "590",
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : "113424",
+				"Id_Producto" : "53592",
+				"Lote" : "20180502"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 40,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : 0,
+				"Lote" : "20180502"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONNEL10OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA NELATON NO 10 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "07716858004609",
+		"Codigo_Cum" : "SONNEL8OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53589",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "53589",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONNEL8OQ",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "SONDA NELATON NO 08 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858005105",
+		"Codigo_Cum" : "SONNEL16OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53604",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "45",
+				"Cantidad_Inventario" : "45",
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : "115736",
+				"Id_Producto" : "53604",
+				"Lote" : "20180502"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONNEL16OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA NELATON NO 16 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "07716858005037",
+		"Codigo_Cum" : "SONNEL12OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53595",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "22",
+				"Cantidad_Inventario" : "63",
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : "113425",
+				"Id_Producto" : "53595",
+				"Lote" : "20180502"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONNEL12OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA NELATON NO 12 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858006128",
+		"Codigo_Cum" : "SONSUC8OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53622",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "99",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : 0,
+				"Lote" : "20180502"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "53622",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONSUC8OQ",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "SONDA SUCCION C/VALVULA NO 8 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858003327",
+		"Codigo_Cum" : "SONFOL14OQ",
+		"Embalaje" : "CAJA X 10",
+		"Id_Producto" : "53526",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "5",
+				"Cantidad_Inventario" : "5",
+				"Fecha_Vencimiento" : "2024-03-15",
+				"Id_Inventario" : "119024",
+				"Id_Producto" : "53526",
+				"Lote" : "190316"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONFOL14OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA FOLEY 2 VIAS NO. 14  (10) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858005048",
+		"Codigo_Cum" : "SONNEL14OQ",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "53600",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "83",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-05-01",
+				"Id_Inventario" : 0,
+				"Lote" : "20180502"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "53600",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONNEL14OQ",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "SONDA NELATON NO 14 (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "8904045277774",
+		"Codigo_Cum" : "SONFOL18LCT",
+		"Embalaje" : "SONDA",
+		"Id_Producto" : "53537",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LCT",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "3",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2020-02-01",
+				"Id_Inventario" : "115805",
+				"Id_Producto" : "53537",
+				"Lote" : "15C1-16"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONFOL18LCT",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA FOLEY 2 VIAS NO. 18 LCT (10) LAB-LCT"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858003439",
+		"Codigo_Cum" : "SONFOL18OQ",
+		"Embalaje" : "CAJA X 10",
+		"Id_Producto" : "53540",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "3",
+				"Cantidad_Inventario" : "9",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : "115860",
+				"Id_Producto" : "53540",
+				"Lote" : "1705050"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONFOL18OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA FOLEY 2 VIAS NO. 18 (10) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7716858003169",
+		"Codigo_Cum" : "SONFOL12OQ",
+		"Embalaje" : "CAJA X 10",
+		"Id_Producto" : "53521",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "5",
+				"Cantidad_Inventario" : "5",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "119025",
+				"Id_Producto" : "53521",
+				"Lote" : "1605043"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONFOL12OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SONDA FOLEY 2 VIAS NO. 12 (10) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "8451236412345",
+		"Codigo_Cum" : "SONFOL16LCT",
+		"Embalaje" : "CAJA X 10",
+		"Id_Producto" : "53530",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LCT",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-02-28",
+				"Id_Inventario" : 0,
+				"Lote" : "15C1-16"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "53530",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SONFOL16LCT",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "SONDA FOLEY 2 VIAS NO. 16 LCT (10) LAB-LCT"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7715825008527",
+		"Codigo_Cum" : "GUAEST7.5OQ",
+		"Embalaje" : "CAJA X 50 PARES",
+		"Id_Producto" : "54666",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "300",
+				"Cantidad_Inventario" : "500",
+				"Fecha_Vencimiento" : "2023-11-30",
+				"Id_Inventario" : "96707",
+				"Id_Producto" : "54666",
+				"Lote" : "203068134SPZA"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 99,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2023-11-30",
+				"Id_Inventario" : 0,
+				"Lote" : "203068134SPZA"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "GUANTE ESTERIL TALLA 7.5 (CAJA X 50 PARES) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7715825008606",
+		"Codigo_Cum" : "GUAEST8.0OQ",
+		"Embalaje" : "CAJA X 50 PARES",
+		"Id_Producto" : "54667",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "13",
+				"Cantidad_Inventario" : "594",
+				"Fecha_Vencimiento" : "2023-11-30",
+				"Id_Inventario" : "113423",
+				"Id_Producto" : "54667",
+				"Lote" : "203068133SPZA"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "GUANTE ESTERIL TALLA 8.0 (CAJA X 50 PARES) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "4968420508192",
+		"Codigo_Cum" : "GUAEST7.0NI",
+		"Embalaje" : "CAJA X 50",
+		"Id_Producto" : "52853",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NIPRO",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-03-30",
+				"Id_Inventario" : 0,
+				"Lote" : "203057219SPZA"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "52853",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "GUAEST7.0NI",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GUANTE ESTERIL 7.0 50 PARES LAB-NIPRO"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : " 7715825008066",
+		"Codigo_Cum" : "GASHOSOQ",
+		"Embalaje" : "CAJA X 20",
+		"Id_Producto" : "52815",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-05-02",
+				"Id_Inventario" : 0,
+				"Lote" : "20180520"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "52815",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "GASHOSOQ",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GASA HOSPITALARIA 19 x 15, 36 x ROLLO X 100 YARDAS LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "77030249034",
+		"Codigo_Cum" : "N/A",
+		"Embalaje" : "1",
+		"Id_Producto" : "54830",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BSN",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "30",
+				"Fecha_Vencimiento" : "2024-04-30",
+				"Id_Inventario" : "85379",
+				"Id_Producto" : "54830",
+				"Lote" : "04/19"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "APOSITO ACRILICO / ALGODON NO ADHERENTE 10CM X 20CM LAB-BSN"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7705366902021",
+		"Codigo_Cum" : "20055558-5",
+		"Embalaje" : "BOLSA GRADO MEDICO X 250 ML EN POLIVINILCLORURO (PVC )CON SOBREBOLSA DE POLIETILENO DE ALTA DENSIDAD(PEAD)",
+		"Id_Producto" : "40343",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "CORPORACION DE FOMENTO ASISTENCIAL DEL HOSPITAL UNIVERSITARIO SAN VICENTE DE PAUL CORPAUL",
+		"Laboratorio_Generico" : "CORPORACION DE FOMENTO ASISTENCIAL DEL HOSPITAL UNIVERSITARIO SAN VICENTE DE PAUL - CORPAUL.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "26",
+				"Fecha_Vencimiento" : "2022-06-30",
+				"Id_Inventario" : "119057",
+				"Id_Producto" : "40343",
+				"Lote" : "3S906204B"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "SOLSAL",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "SODIO CLORURO AL 0.9%(BOLSA X 250 ML) (SODIO CLORURO SOLUCION INYECTABLE C) 1 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707298540050",
+		"Codigo_Cum" : "19932754-02",
+		"Embalaje" : "BOLSA PVC ATOXICO POR 500ML MAS BOLSA EXTERNA EN POLIETILENO CON PUERTO DE INYECCION DE POLICARBONATO Y TAPON DE SILIPRENE CONECTOR DE PVC GRADO MEDICO Y TAPA",
+		"Id_Producto" : "54636",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FRESENIUS MEDICAL CARE ANDINA S.A.S.",
+		"Laboratorio_Generico" : "FRESENIUS KABI COLOMBIA S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "15",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-08-30",
+				"Id_Inventario" : 0,
+				"Lote" : "AECH01036"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54636",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "CLORURO DE SODIO 0.9% (CLORURO DE SODIO 500 ML B) 1 g"
+	},
+	{
+		"Cantidad_Presentacion" : "25",
+		"Codigo_Barras" : "7715825009157",
+		"Codigo_Cum" : "JERDES60OQ",
+		"Embalaje" : "UNIDAD",
+		"Id_Producto" : "54230",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "31",
+				"Cantidad_Inventario" : "77",
+				"Fecha_Vencimiento" : "2023-05-14",
+				"Id_Inventario" : "116027",
+				"Id_Producto" : "54230",
+				"Lote" : "180515"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES60OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JERINGA DES. 60ML S/A PUNTA CATETER 3 PAR (300/25) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7716858000098",
+		"Codigo_Cum" : "JERDES1OQ",
+		"Embalaje" : "CAJA X 100",
+		"Id_Producto" : "52959",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "100",
+				"Cantidad_Inventario" : "100",
+				"Fecha_Vencimiento" : "2024-03-19",
+				"Id_Inventario" : "117040",
+				"Id_Producto" : "52959",
+				"Lote" : "190320"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES1OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JERINGA DES. 1ML C/A 27G X 1/2 .3-PAR. (100) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7715825009124",
+		"Codigo_Cum" : "JERDES1OQ30",
+		"Embalaje" : "CAJA X 100",
+		"Id_Producto" : "54229",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 844,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2023-05-14",
+				"Id_Inventario" : 0,
+				"Lote" : "180515"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES1OQ30",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JERINGA INS. 1ML C/A 30G X 1/2 3 PAR (3000/100) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "25",
+		"Codigo_Barras" : "7715825007908",
+		"Codigo_Cum" : "GASEST75OQ",
+		"Embalaje" : "PAQUETE X 25 SOBRES",
+		"Id_Producto" : "52809",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "6",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2024-04-10",
+				"Id_Inventario" : "113421",
+				"Id_Producto" : "52809",
+				"Lote" : "20190410"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "GASEST75OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "GASA ESTERIL 7.5 x 7.5 CMS SOBRE x 5 UNDS (25) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7716858000379",
+		"Codigo_Cum" : "JERDES10OQ",
+		"Embalaje" : "CAJA X 100",
+		"Id_Producto" : "52958",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "14",
+				"Fecha_Vencimiento" : "2022-06-17",
+				"Id_Inventario" : "115730",
+				"Id_Producto" : "52958",
+				"Lote" : "170618"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 207,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2023-05-14",
+				"Id_Inventario" : 0,
+				"Lote" : "180515"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES10OQ",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "JERINGA DES. 10ML C/A 21G X 11/2 3 PAR. (100) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "25",
+		"Codigo_Barras" : "7716858000469",
+		"Codigo_Cum" : "JERDES20OQ",
+		"Embalaje" : "CAJA X 100",
+		"Id_Producto" : "52960",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "67",
+				"Cantidad_Inventario" : "95",
+				"Fecha_Vencimiento" : "2024-03-19",
+				"Id_Inventario" : "124872",
+				"Id_Producto" : "52960",
+				"Lote" : "190320"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 25,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2024-03-19",
+				"Id_Inventario" : 0,
+				"Lote" : "190320"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES20OQ",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JERINGA DES. 20ML C/A 21G X 11/2 3PAR (50) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "25",
+		"Codigo_Barras" : "7715825008011",
+		"Codigo_Cum" : "GASEST10OQ",
+		"Embalaje" : "CAJA X 25",
+		"Id_Producto" : "52804",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "27",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-03-01",
+				"Id_Inventario" : 0,
+				"Lote" : "20170301"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "52804",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "GASEST10OQ",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GASA ESTERIL 10 x 10 CMS SOBRE x 5 UNDS (25) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "4968420506471",
+		"Codigo_Cum" : "20047928",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "54082",
+		"Imagen" : "5b71b3b561393.jpeg",
+		"Laboratorio_Comercial" : "NIPRO MEDICAL CORPORATION",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "40",
+				"Cantidad_Inventario" : "40",
+				"Fecha_Vencimiento" : "2021-07-30",
+				"Id_Inventario" : "21869",
+				"Id_Producto" : "54082",
+				"Lote" : "201608"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "JERDES1TN",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "DISPONSABLE SYRINGE WITH NEEDLE AND WHITHOUT NEEDLE/JERINGA DESECHABLE CON AGUJA Y SIN AGUJA - JERINGAS DESECHABLES - NIPRO LAB-NIPRO MEDICAL CORPORATION"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707202160503",
+		"Codigo_Cum" : "GASNOTEJ",
+		"Embalaje" : "1",
+		"Id_Producto" : "54913",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "GOTHAPLAST",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-05-20",
+				"Id_Inventario" : "115737",
+				"Id_Producto" : "54913",
+				"Lote" : "20180520"
+			},
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2022-05-30",
+				"Id_Inventario" : "121793",
+				"Id_Producto" : "54913",
+				"Lote" : "1819718"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "GASA ROLLO NO TEJIDA 30CM X 100 YARDAS LAB-GOTHAPLAST"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "12365666987032",
+		"Codigo_Cum" : "GUANITEST7.5",
+		"Embalaje" : "PAR",
+		"Id_Producto" : "55104",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA SAFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "41",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-11-30",
+				"Id_Inventario" : 0,
+				"Lote" : "109069614PC5A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55104",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GUANTE NITRILO ESTERIL LIBRE DE LATEX 7.5 PAR LAB-ALFA SAFE"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702560000324",
+		"Codigo_Cum" : "ALGHOSJGB",
+		"Embalaje" : "PAQUETE X 30",
+		"Id_Producto" : "52278",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "JGB",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2022-10-30",
+				"Id_Inventario" : "117647",
+				"Id_Producto" : "52278",
+				"Lote" : "708432"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ALGHOSJGB",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ALGODON POR ROLLO POR 500 GR (EMPQ.INDIVIDUALMENTE) (30) LAB-JGB"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702057643577",
+		"Codigo_Cum" : "ALGROLMK",
+		"Embalaje" : "UNIDAD",
+		"Id_Producto" : "52277",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "MK",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2024-08-30",
+				"Id_Inventario" : "122052",
+				"Id_Producto" : "52277",
+				"Lote" : "1908109"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ALGROLMK",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ALGODN POR ROLLO POR 450 GR O MS EMPACADO INDIVIDUALMENTE LAB-MK"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702560000287",
+		"Codigo_Cum" : "ALGTOR500JGB",
+		"Embalaje" : "PAQUETE X 12",
+		"Id_Producto" : "52279",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "JGB",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-04-30",
+				"Id_Inventario" : "119023",
+				"Id_Producto" : "52279",
+				"Lote" : "717873"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 1,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2023-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "717873"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ALGTOR500JGB",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ALGODON TORUNDAS BOLSA X 500 GRAMOS (12) LAB-JGB"
+	},
+	{
+		"Cantidad_Presentacion" : "50",
+		"Codigo_Barras" : "7703153026158",
+		"Codigo_Cum" : "20037941",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "54039",
+		"Imagen" : "5b6ef5a89a224.jpg",
+		"Laboratorio_Comercial" : "PROCAPS S.A.",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "100",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-12-30",
+				"Id_Inventario" : 0,
+				"Lote" : "D0084"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54039",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LANQUI",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GLUCOQUICK LANCETAS ESTERILES - LANCETAS - GLUCOQUICK LAB-PROCAPS S.A."
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "3582910009900",
+		"Codigo_Cum" : "19952942-2",
+		"Embalaje" : "CAJA DE CARTON X 10 VIALES DE POLIETILENO DE BAJA DENSIDAD X 5 ML",
+		"Id_Producto" : "15809",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATOIRE UNITHER",
+		"Laboratorio_Generico" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "40",
+				"Cantidad_Inventario" : "40",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "121401",
+				"Id_Producto" : "15809",
+				"Lote" : "2707"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ENTEROGERMINA 2000 MILLONES (2 MILLARDOS)/5 ML SUSPENSION ORAL (ESPORAS DE BACILLUS CLAUSII 2000 MILLONES (2 MILLARDOS)*(INCLUYE 20% DE EXCESO POR PERDIDAS DURANTE EL PROCESO) SUSPENSION ORAL A) 2000 millones"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707208610842",
+		"Codigo_Cum" : "19955174",
+		"Embalaje" : "",
+		"Id_Producto" : "54779",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "PIERRE FABRE DERMO-COSMETIQUE",
+		"Laboratorio_Generico" : "PERCOS S.A",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2023-05-30",
+				"Id_Inventario" : "85397",
+				"Id_Producto" : "54779",
+				"Lote" : "AV6168C"
+			},
+			{
+				"Cantidad_Encontrada" : "",
+				"Cantidad_Inventario" : "10",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "115711",
+				"Id_Producto" : "54779",
+				"Lote" : "AV1901"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "EAU THERMALE AVENE LAB-PIERRE FABRE DERMO-COSMETIQUE"
+	},
+	{
+		"Cantidad_Presentacion" : "100",
+		"Codigo_Barras" : "7707228366507",
+		"Codigo_Cum" : "APLI",
+		"Embalaje" : "CAJA X 1000",
+		"Id_Producto" : "52289",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA SAFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "200",
+				"Cantidad_Inventario" : "28",
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : "122015",
+				"Id_Producto" : "52289",
+				"Lote" : "WJ82217A"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 100,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "WJ82217A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "APLI",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "APLICADORES DE MADERA CON PUNTA DE ALGODON (100) LAB-ALFA SAFE"
+	},
+	{
+		"Cantidad_Presentacion" : "28",
+		"Codigo_Barras" : "8901109316400",
+		"Codigo_Cum" : "20024819-2",
+		"Embalaje" : "CAJA POR 14 TABLETAS RECUBIERTAS EN BLISTER ALU/ALU OPA PVC",
+		"Id_Producto" : "3491",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NOVARTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANDOZ GMBH",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-03-30",
+				"Id_Inventario" : 0,
+				"Lote" : "HY7388"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "3491",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "ANIMAXEN 20 MG TABLETAS RECUBIERTAS (ESCITALOPRAM OXALATO EQUIVALENTE A ESCITALOPRAM TABLETA RECUBIERTA A) 20 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7715825008459",
+		"Codigo_Cum" : "GUAEST7.0OQ",
+		"Embalaje" : "CAJA X 50 PARES",
+		"Id_Producto" : "54665",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "OPTIMAL QUALITY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2023-11-30",
+				"Id_Inventario" : "113422",
+				"Id_Producto" : "54665",
+				"Lote" : "203068134SPZA"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "GUANTE ESTERIL TALLA 7.0 (CAJA X 50 PARES) LAB-OPTIMAL QUALITY"
+	},
+	{
+		"Cantidad_Presentacion" : "60",
+		"Codigo_Barras" : "4032129079717",
+		"Codigo_Cum" : "20018741-7",
+		"Embalaje" : "CAJA DE CARTON POR 60 TABLETAS EN BLISTER DE PVC/PVDC - PAPEL /PET/ALUMINIO.",
+		"Id_Producto" : "34606",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FARMACEUTICI FORMENTI S.P.A",
+		"Laboratorio_Generico" : "GRUNENTHAL GMBH.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Inventario" : "90",
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : "128758",
+				"Id_Producto" : "34606",
+				"Lote" : "362N04"
+			},
+			{
+				"AgregarLote" : "none",
+				"Cantidad_Encontrada" : 60,
+				"Cantidad_Inventario" : 0,
+				"Fecha_Vencimiento" : "2021-10-30",
+				"Id_Inventario" : 0,
+				"Lote" : "362N04"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PALEXIS RETARD 50MG (TAPENTADOL CLORHIDRATO EQUIVALENTE A TAPENTADOL TABLETA DE LIBERACION PROLONGADA A) 50 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "4032129048294",
+		"Codigo_Cum" : "20018741-6",
+		"Embalaje" : "CAJA DE CARTON POR 30 TABLETAS EN BLISTER DE PVC/PVDC - PAPEL /PET/ALUMINIO.",
+		"Id_Producto" : "34605",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FARMACEUTICI FORMENTI S.P.A",
+		"Laboratorio_Generico" : "GRUNENTHAL GMBH.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "50",
+				"Cantidad_Inventario" : "110",
+				"Fecha_Vencimiento" : "2022-03-30",
+				"Id_Inventario" : "128757",
+				"Id_Producto" : "34605",
+				"Lote" : "465p05"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "1",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PALEXIS RETARD 50MG (TAPENTADOL CLORHIDRATO EQUIVALENTE A TAPENTADOL TABLETA DE LIBERACION PROLONGADA A) 50 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "30",
+		"Codigo_Barras" : "4032129048300",
+		"Codigo_Cum" : "20049944-6",
+		"Embalaje" : "CAJA X 30 TABLETAS. EN BLISTER PVC/PVDC-PAPEL/PET/ALUMINIO (BLANCO)",
+		"Id_Producto" : "34567",
+		"Imagen" : "5b687e0217fe5.jpg",
+		"Laboratorio_Comercial" : "FARMACEUTICI FORMENTI S.P.A.",
+		"Laboratorio_Generico" : "GRUNENTHAL GMBH",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "180",
+				"Cantidad_Inventario" : "180",
+				"Fecha_Vencimiento" : "2021-12-30",
+				"Id_Inventario" : "128759",
+				"Id_Producto" : "34567",
+				"Lote" : "976P03"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "PALEX100MG",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PALEXIS RETARD 100 MG (TAPENTADOL CLORHIDRATO EQUIVALENTE A TAPENTADOL TABLETA DE LIBERACION PROLONGADA A) 100 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "5",
+		"Codigo_Barras" : "199676543000",
+		"Codigo_Cum" : "19967654-3",
+		"Embalaje" : "CAJA PLEGADIZA POR 5 PARCHES EN SACHETS INDIVIDUALES.",
+		"Id_Producto" : "43387",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "GRUNENTHAL COLOMBIANA S.A.",
+		"Laboratorio_Generico" : "GRUNENTHAL GMBH.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "10",
+				"Cantidad_Inventario" : "10",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : "121414",
+				"Id_Producto" : "43387",
+				"Lote" : "71178E311"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "TRANSTEC 70 MCG / H (BUPRENORFINA SOLUCION PARA USO TRANSDERMICO(PARCHE) A) 40 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7591044008723",
+		"Codigo_Cum" : "44747-1",
+		"Embalaje" : "CAJA DE PVP CON 20 COMPRIMIDOS EN BLISTER DE PVC TRANSLUCIDO/ALUMINIO.",
+		"Id_Producto" : "50454",
+		"Imagen" : "5b687e0215116.jpg",
+		"Laboratorio_Comercial" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "100",
+				"Cantidad_Inventario" : "410",
+				"Fecha_Vencimiento" : "2021-08-30",
+				"Id_Inventario" : "121447",
+				"Id_Producto" : "50454",
+				"Lote" : "844017"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "20",
+				"Fecha_Vencimiento" : "2021-12-30",
+				"Id_Inventario" : "127627",
+				"Id_Producto" : "50454",
+				"Lote" : "9RA00333"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "80",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-06-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9RA05240"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "50454",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "URB",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "URBADAN 20 MG (CLOBAZAM MICROFINO (PBFG)  A) 20 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707288823989",
+		"Codigo_Cum" : "20044093-01",
+		"Embalaje" : "CAJA POR 20TABLETAS EN BLISTER DE PVC/PVDC AZUL POR 2 BLSITER DE 10 TABLETAS",
+		"Id_Producto" : "54303",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FARMATECH S.A.",
+		"Laboratorio_Generico" : "HUMAX PHARMACEUTICAL S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "70",
+				"Cantidad_Inventario" : "270",
+				"Fecha_Vencimiento" : "2021-01-30",
+				"Id_Inventario" : "121415",
+				"Id_Producto" : "54303",
+				"Lote" : "9E134"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "130",
+				"Fecha_Vencimiento" : "2020-09-30",
+				"Id_Inventario" : "122004",
+				"Id_Producto" : "54303",
+				"Lote" : "8S302"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "OBX",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "OBAX 20 MG TABLETAS (CLOBAZAM TABLETA A) 20 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7795355998272",
+		"Codigo_Cum" : "20100066-03",
+		"Embalaje" : "1T1011361002101   TERIPARATIDA 0.2500 MG OTRAS SOLUCIONES SUBCUTANEA (BIOSETT) JERINGA 0.0800ML / CAJA X 30 Y/O CAJA CON 30 JERINGAS DE VIDRIO TIPO I CON 0.08 ML DE SOLUCION DE TERIPARATIDE (20MCG) C/U MAS INSERTO.",
+		"Id_Producto" : "54760",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BIOLATAM S.A.S",
+		"Laboratorio_Generico" : "BIOSIDUS S.A",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "1",
+				"Fecha_Vencimiento" : "2021-05-30",
+				"Id_Inventario" : "115697",
+				"Id_Producto" : "54760",
+				"Lote" : "93915"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "BIOSETT (TERIPARATIDA (ORIGEN ADN RECOMBINANTE) ML A) 250 mcg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7501125169892",
+		"Codigo_Cum" : "19935952-1",
+		"Embalaje" : "BLISTER DE DE PET CONTENIENDO: CAJA CON UN FRASCO AMPULA (VIAL) DE VIDRIO TIPO I CON TAPON DE BROMOBUTILO GRIS Y SELLO FLIP-OFF CONTENIENDO 1 MG DE VINCRISTINA SULFATO + AMPOLLETA DE VIDRIO TRANSPARENTE INCOLORO TIPO I CONTENIENDO 10 ML DE SOLVENTE + INSER",
+		"Id_Producto" : "11303",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "LABORATORIOS PISA S.A DE C.V.",
+		"Laboratorio_Generico" : "LABORATORIOS PISA S.A. DE C.V.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : 0,
+				"Lote" : "19E043"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "11303",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "CRIVOSIN (SULFATO DE VINCRISTINA POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE A) 1 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "3000032187127",
+		"Codigo_Cum" : "19976227-1",
+		"Embalaje" : "FRASCO VIAL CON 250 MG DE ABATACEPT + JERINGA DESECHABLE LIBRE DE SILICONA",
+		"Id_Producto" : "54174",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BRISTOL-MYERS SQUIBB HOLDINGS PHARMA LTD. LIABILITY COMPANY.",
+		"Laboratorio_Generico" : "BRISTOL MYERS SQUIBB DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-09-30",
+				"Id_Inventario" : 0,
+				"Lote" : "ABB6792"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54174",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ABINYBR",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "ORENCIA AÂ® 250 MG - POLVO LIOFILIZADO PARA SOLUCION INYECTABLE INTRAVENOSA (ABATACEPT  A) 263 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "4",
+		"Codigo_Barras" : "7798008271951",
+		"Codigo_Cum" : "20041743-1",
+		"Embalaje" : "CAJA CON 4 JERINGAS PRELLENADAS DE DOSIS UNICA",
+		"Id_Producto" : "54172",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "BRISTOL MYERS SQUIBB HOLDING PHARMA LTD",
+		"Laboratorio_Generico" : "BRISTOL MYERS SQUIBB DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "4",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "93577",
+				"Id_Producto" : "54172",
+				"Lote" : "ABC7130"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "4",
+				"Fecha_Vencimiento" : "2021-02-28",
+				"Id_Inventario" : "103802",
+				"Id_Producto" : "54172",
+				"Lote" : "ABA7852"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "ABATAC",
+		"Mensaje" : "Se encontraron 2 Lotes de este Producto",
+		"Nombre" : "ORENCIAAÂ® SOLUCION INYECTABLE PARA ADMINISTRACION SUBCUTANEA 125 MG/ML (ABATACEPT  A) 125 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "25",
+		"Codigo_Barras" : "6091403206292",
+		"Codigo_Cum" : "46265-1",
+		"Embalaje" : "FRASCO DE VIDRIO AMBAR TIPO III POR 25 COMPRIMIDOS CON TAPA PLASTICA.",
+		"Id_Producto" : "2264",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "AL PHARMA S.A.",
+		"Laboratorio_Generico" : "ASPEN LABS S.A. DE C.V.. MEXICO",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "25",
+				"Cantidad_Inventario" : "25",
+				"Fecha_Vencimiento" : "2020-11-30",
+				"Id_Inventario" : "89762",
+				"Id_Producto" : "2264",
+				"Lote" : "902474"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ALKERAN 2 MG TABLETAS (MELFALAN TABLETA CUBIERTA CON PELICULA A) 2 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7591044106245",
+		"Codigo_Cum" : "19914262-4",
+		"Embalaje" : "CAJA X 1 VIAL DE VIDRIO TIPO I. INCOLORO. CON CAPACIDAD PARA 10 ML. CON TAPA DE AGRAFE EN ALUMINIO. CON SISTEMA DE TEAR-OFF EN POLIPROPILENO Y TAPON LAMINADO EN GOMA DE ISOPRENO SINTETICO GRIS Y GOMA DE BROMOBUTILO CREMA.",
+		"Id_Producto" : "25476",
+		"Imagen" : "5b6cb87d3c4a8.jpeg",
+		"Laboratorio_Comercial" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "SANOFI-AVENTIS DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "3",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "8F021A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "25476",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "LANT",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "LANTUS  100 U / ML (INSULINA GLARGINA (HOE 901) 36.378 MG EQUIVALENTE A 1000 U.I. DE INSULINA. SOLUCION INYECTABLE A) 1000 U"
+	},
+	{
+		"Cantidad_Presentacion" : "2",
+		"Codigo_Barras" : "8715131013400",
+		"Codigo_Cum" : "20087350-1",
+		"Embalaje" : "EVOLOCUMAB 140.0000 MG OTRAS SOLUCIONES SUBCUTANEA (REPATHA) PLUMA 1.0000ML / CAJA X 2",
+		"Id_Producto" : "37706",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "AMGEN BIOTECNOLOGICA S.A.S",
+		"Laboratorio_Generico" : "AMGEN MANUFACTURING LIMITED",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "2",
+				"Cantidad_Inventario" : "2",
+				"Fecha_Vencimiento" : "2020-10-30",
+				"Id_Inventario" : "91274",
+				"Id_Producto" : "37706",
+				"Lote" : "1100371"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "REPT",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "REPATHA 140 MG/ML (EVOLOCUMAB SOLUCION INYECTABLE C) 140 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "3582910023630",
+		"Codigo_Cum" : "19950479-19",
+		"Embalaje" : "ESTUCHE POR 1 SOLOSTAR",
+		"Id_Producto" : "3620",
+		"Imagen" : "5b6c671612d6b.jpeg",
+		"Laboratorio_Comercial" : "SANOFI AVENTIS DE COLOMBIA S.A",
+		"Laboratorio_Generico" : "SANOFI AVENTIS DE COLOMBIA S.A",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-08-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9F726A"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "3620",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "APIDSOSF",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "APIDRA  (INSULINA GLULISINA 3.49 MG EQUIVALENTE A INSULINA (SOLOSTAR) SOLUCION INYECTABLE C) 100 UI"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7709990220773",
+		"Codigo_Cum" : "19910693-6",
+		"Embalaje" : "CAJA POR 5 PLUMAS DESECHABLES MULTIDOSIS PRELLENADAS DE 3 ML DE SOLUCION EN CARTUCHO DE VIDRIO TIPO I. CON EMBOLO (BROMOBUTILO ) Y TAPON ( BROMOBUTILO POLIISOPRENO)",
+		"Id_Producto" : "32519",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NOVO NORDISK A/S",
+		"Laboratorio_Generico" : "NOVO - NORDISK A/S",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-06-30",
+				"Id_Inventario" : 0,
+				"Lote" : "JR7W513"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-11-30",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "32519",
+				"Lote" : "JR7Y632"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "32519",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "1",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "NOVORAPID 100 U/ML (INSULINA ASPARTA 100 UI SOLUCION INYECTABLE A) 35 mg"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7703186545183",
+		"Codigo_Cum" : "1981395",
+		"Embalaje" : "TARRO",
+		"Id_Producto" : "54734",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Laboratorio_Generico" : "ABBOTT LABORATORIES DE COLOMBIA S.A.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Inventario" : "60",
+				"Fecha_Vencimiento" : "2020-02-28",
+				"Id_Inventario" : "116030",
+				"Id_Producto" : "54734",
+				"Lote" : "02564NR"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "JEVETY X 1500 ML LAB-ABBOTT LABORATORIES DE COLOMBIA S.A."
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702027478512",
+		"Codigo_Cum" : "TENSLS",
+		"Embalaje" : "1",
+		"Id_Producto" : "53207",
+		"Imagen" : "5bb7f20ee1e8c.jpeg",
+		"Laboratorio_Comercial" : "FAMILIA",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "8",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2022-07-30",
+				"Id_Inventario" : "119047",
+				"Id_Producto" : "53207",
+				"Lote" : "0000"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "TENSLS",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PAAÂ‘AL TENA SLIP TALLA S  (UNIDAD) LAB-FAMILIA"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7751493006439",
+		"Codigo_Cum" : "PANADLPXL",
+		"Embalaje" : "PAQUETE X 20",
+		"Id_Producto" : "54431",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "KYMBERLY",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "43",
+				"Fecha_Vencimiento" : "2022-04-15",
+				"Id_Inventario" : "115728",
+				"Id_Producto" : "54431",
+				"Lote" : "150419"
+			},
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "650",
+				"Fecha_Vencimiento" : "2025-12-30",
+				"Id_Inventario" : "119284",
+				"Id_Producto" : "54431",
+				"Lote" : "200719A1"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 3 Lotes de este Producto",
+		"Nombre" : "PAAÂ‘AL TALLA G/XG ADULTO PLENITUD PROTECT (20) LAB-KYMBERLY"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702870051238",
+		"Codigo_Cum" : "019937239",
+		"Embalaje" : "LATA X 400GR",
+		"Id_Producto" : "54318",
+		"Imagen" : "5bb7e8a3a0a4c.jpeg",
+		"Laboratorio_Comercial" : "LAFRANCOL INTERNACIONAL S.A.S.",
+		"Laboratorio_Generico" : "LABORATORIO FRANCO COLOMBIANO LAFRANCOL S.A.S.",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "14",
+				"Cantidad_Inventario" : "14",
+				"Fecha_Vencimiento" : "2020-05-30",
+				"Id_Inventario" : "121410",
+				"Id_Producto" : "54318",
+				"Lote" : "8A4105"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "e",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "ENSOY X 400GR VAINILLA LAB-LAFRANCOL INTERNACIONAL S.A.S."
+	},
+	{
+		"Cantidad_Presentacion" : "10",
+		"Codigo_Barras" : "7703546050302",
+		"Codigo_Cum" : "20073013-3",
+		"Embalaje" : "USO INTITUCIONAL: FRASCO DE VIDRIO AMBAR TIPO III POR 300ML CON CIERRE DE SEGURIDAD PARA NINOS COLOR BLANCO (POLIPROPILENO) EN UNA CAJA DE CARTON QUE CONTIENE UNA JERINGA DOSIFICADORA. UN ADAPTADOR DE JERINGA",
+		"Id_Producto" : "22871",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "NOVAMED S.A.",
+		"Laboratorio_Generico" : "NOVAMED S.A.",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "1",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "70594"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "22871",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "ICTAFIN SOLUCION ORAL (LEVETIRACETAM SOLUCION ORAL B) 10 g"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707336091247",
+		"Codigo_Cum" : "APOOCU20",
+		"Embalaje" : "CAJA X 20",
+		"Id_Producto" : "52309",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ZIBOJECT",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "60",
+				"Cantidad_Inventario" : "60",
+				"Fecha_Vencimiento" : "2023-10-30",
+				"Id_Inventario" : "118191",
+				"Id_Producto" : "52309",
+				"Lote" : "20181020"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "APOOCU20",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "APOSITO OCULAR ADULTO (20) LAB-ZIBOJECT"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702027047961",
+		"Codigo_Cum" : "PANTENA",
+		"Embalaje" : "UNIDAD",
+		"Id_Producto" : "55210",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FAMILIA",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "320",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : "119019",
+				"Id_Producto" : "55210",
+				"Lote" : "PA04190A21"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "320",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "9A04190421"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55210",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "PAAÂ‘ITOS HUMEDOS TENA LAB-FAMILIA"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702098009165",
+		"Codigo_Cum" : "19984937",
+		"Embalaje" : "No aplica",
+		"Id_Producto" : "54112",
+		"Imagen" : "5b71f920aeb4f.jpeg",
+		"Laboratorio_Comercial" : "3M COLOMBIA S.A.",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "96",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2024-04-19",
+				"Id_Inventario" : 0,
+				"Lote" : "190327"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "54112",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "MICRPI1",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "3M MICROPORE CINTA QUIRUÂ’GICA / 3M - NEXCARE LAB-3M COLOMBIA S.A."
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7702027470134",
+		"Codigo_Cum" : "TENMINMUJ",
+		"Embalaje" : "UNIDAD",
+		"Id_Producto" : "55211",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "FAMILIA",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad_Encontrada" : "0",
+				"Cantidad_Inventario" : "120",
+				"Fecha_Vencimiento" : "2022-04-30",
+				"Id_Inventario" : "119020",
+				"Id_Producto" : "55211",
+				"Lote" : "RN4190"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "90",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2022-04-30",
+				"Id_Inventario" : 0,
+				"Lote" : "RN04190422"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "30",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2021-12-30",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55211",
+				"Lote" : "RN12181221"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55211",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "Se encontraron 1 Lotes de este Producto",
+		"Nombre" : "TENA MINI MUJER ALAS (30) LAB-FAMILIA"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707228360543",
+		"Codigo_Cum" : "GASES7.5ALF12",
+		"Embalaje" : "SOBRE",
+		"Id_Producto" : "55273",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA SAFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "12",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-07-30",
+				"Id_Inventario" : 0,
+				"Lote" : "SC060718"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55273",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GASA ESTERIL TEJIDA 7.5 X 7.5 CMS SOBRE X 12 GASAS LAB-ALFA SAFE"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707228360475",
+		"Codigo_Cum" : "GASES7.5ALF2",
+		"Embalaje" : "SOBRE",
+		"Id_Producto" : "55274",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA SAFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "24",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2023-12-30",
+				"Id_Inventario" : 0,
+				"Lote" : "SC221218"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55274",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GASA ESTERIL TEJIDA 7.5 X 7.5 CMS SOBRE X 2 GASAS LAB-ALFA SAFE"
+	},
+	{
+		"Cantidad_Presentacion" : "1",
+		"Codigo_Barras" : "7707228360499",
+		"Codigo_Cum" : "GASES7.5ALF100",
+		"Embalaje" : "SOBRE",
+		"Id_Producto" : "55275",
+		"Imagen" : "",
+		"Laboratorio_Comercial" : "ALFA SAFE",
+		"Laboratorio_Generico" : "",
+		"Lotes" : [
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : "50",
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "2020-07-03",
+				"Id_Inventario" : 0,
+				"Lote" : "150703"
+			},
+			{
+				"Cantidad" : 0,
+				"Cantidad_Encontrada" : 0,
+				"Cantidad_Final" : 0,
+				"Codigo" : "Ingresa uno Nuevo ->",
+				"Fecha_Vencimiento" : "",
+				"Id_Inventario" : 0,
+				"Id_Producto" : "55275",
+				"Lote" : ""
+			}
+		],
+		"Mantis" : "",
+		"Mensaje" : "No se encontraron Lotes de este Producto, Agregue uno nuevo si consiguio",
+		"Nombre" : "GASA ESTERIL TEJIDA 7.5 X 7.5 CMS SOBRE X 100 GASAS LAB-ALFA SAFE"
+	}
+]

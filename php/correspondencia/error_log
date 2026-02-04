@@ -1,0 +1,51 @@
+[03-Jan-2019 15:33:24 America/Bogota] PHP Warning:  Illegal string offset 'Id_Dispensacion' in /home/o3qy25y1d4cd/public_html/php/correspondencia/guardar_correspondencia.php on line 41
+[03-Jan-2019 15:33:24 America/Bogota] PHP Warning:  Illegal string offset 'Id_Dispensacion' in /home/o3qy25y1d4cd/public_html/php/correspondencia/guardar_correspondencia.php on line 46
+[03-Jan-2019 15:33:24 America/Bogota] PHP Warning:  Illegal string offset 'Id_Dispensacion' in /home/o3qy25y1d4cd/public_html/php/correspondencia/guardar_correspondencia.php on line 41
+[03-Jan-2019 15:33:24 America/Bogota] PHP Warning:  Illegal string offset 'Id_Dispensacion' in /home/o3qy25y1d4cd/public_html/php/correspondencia/guardar_correspondencia.php on line 46
+[12-Jan-2019 21:10:28 UTC] PHP Parse error:  syntax error, unexpected '$oCon' (T_VARIABLE), expecting ',' or ';' in /home/o3qy25y1d4cd/public_html/php/correspondencia/lista_dispensaciones.php on line 43
+[12-Jan-2019 21:10:37 UTC] PHP Parse error:  syntax error, unexpected '$oCon' (T_VARIABLE), expecting ',' or ';' in /home/o3qy25y1d4cd/public_html/php/correspondencia/lista_dispensaciones.php on line 43
+[12-Jan-2019 21:15:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/correspondencia/lista_dispensaciones.php on line 49
+[12-Jan-2019 21:16:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/o3qy25y1d4cd/public_html/php/correspondencia/lista_dispensaciones.php on line 49
+[25-Feb-2019 11:53:29 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[25-Feb-2019 11:53:29 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:05:32 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:05:32 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:10:53 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:24:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:24:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:57:45 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:57:45 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:47:52 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:47:52 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:32 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:32 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:42 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:42 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:40:43 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:40:43 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:26:30 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:26:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:26:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:26:51 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:26:51 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:28:47 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:28:48 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 10:07:06 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 10:07:07 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 10:07:57 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 10:07:57 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:10:56 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:10:56 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:11:42 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:11:42 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:11:46 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:11:46 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:01:27 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:01:27 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:06 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:07 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:33 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:20:33 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Sep-2019 11:31:03 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/correspondencia/descargar_reporte.php on line 33

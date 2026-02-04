@@ -1,0 +1,6 @@
+[13-Jan-2021 07:04:57 America/Bogota] PHP Warning:  mysqli_connect(): (HY000/2002): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 19
+[13-Jan-2021 07:04:57 America/Bogota] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/sigespro/public_html/class/class.consulta.php on line 19
+[13-Jan-2021 07:19:54 America/Bogota] PHP Warning:  mysqli_connect(): (HY000/2002): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 19
+[13-Jan-2021 07:19:55 America/Bogota] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/sigespro/public_html/class/class.consulta.php on line 19
+[22-Jul-2021 14:26:40 America/Bogota] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /home/sigespro/public_html/class/class.querybasedatos.php on line 68
+[22-Jul-2021 14:27:21 America/Bogota] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in /home/sigespro/public_html/class/class.querybasedatos.php on line 68

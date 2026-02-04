@@ -1,0 +1,2 @@
+OK /home/sigesproph/public_html/.'/config/config.inc.php'
+{"success":true,"httpResponseCode":200,"message":"Solicitud procesada correctamente","data":{"success":true,"httpResponseCode":200,"resultSolicitud":"OK","resultFiles":[]},"fechaActual":"Jun 21, 2023 12:26:07 PM"}

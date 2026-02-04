@@ -1,0 +1,56 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header('Content-Type: application/json');
+
+require_once('../../config/start.inc.php');
+include_once('../../class/class.lista.php');
+include_once('../../class/class.complex.php');
+include_once('../../class/class.consulta.php');
+
+$query='SELECT I.*, PRD.Laboratorio_Generico ,CONCAT(PRD.Principio_Activo," ",PRD.Presentacion," ",PRD.Concentracion," (",PRD.Nombre_Comercial, ") ", PRD.Cantidad," ", PRD.Unidad_Medida, " ") as Nombre_Producto, PRD.Tipo
+FROM Inventario I
+INNER JOIN Producto PRD
+On I.Id_Producto=PRD.Id_Producto';
+
+$oCon= new consulta();
+$oCon->setTipo('Multiple');
+$oCon->setQuery($query);
+$inventario = $oCon->getData();
+unset($oCon);
+$i=-1;
+foreach($inventario as $inventarios){$i++;
+    var_dump( $inventarios["Nombre_Producto"]);
+    if($inventarios["Nombre_Producto"]===NULL){
+        
+        $inventario[$i]["Nombre_Producto"]=$inventario["Nombre_Comercial"];
+    }
+
+    if($inventarios["Id_Bodega"]==0){
+        $query2='SELECT B.Nombre as Nombre_Bodega
+        FROM Punto_Dispensacion B
+        WHERE Id_Punto_Dispensacion='.$inventarios["Id_Punto_Dispensacion"];
+        //echo $query2;
+        $oCon= new consulta();
+        $oCon->setQuery($query2);
+        $nombre = $oCon->getData();
+        //var_dump( $nombre);
+        unset($oCon);
+        $inventario[$i]["Nombre_Bodega"]=$nombre["Nombre_Bodega"];
+        
+        
+       
+    }elseif($inventarios["Id_Punto_Dispensacion"]==0){
+         $query='SELECT B.Nombre as Nombre_Bodega
+        FROM Bodega B
+        WHERE Id_Bodega='.$inventarios["Id_Bodega"];
+    
+    $oCon= new consulta();
+    $oCon->setQuery($query);
+    $nombre = $oCon->getData();
+    unset($oCon);
+    $inventario[$i]["Nombre_Bodega"]=$nombre["Nombre_Bodega"]; 
+    }
+}
+echo json_encode($inventario);
+?>

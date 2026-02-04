@@ -1,0 +1,5 @@
+[11-Mar-2022 07:54:29 America/Bogota] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sigesproph/public_html/class/_class/locale.class.php on line 69
+[11-Mar-2022 07:54:29 America/Bogota] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/include/tcpdf_fonts.php on line 1671
+[11-Mar-2022 07:54:29 America/Bogota] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sigesproph/public_html/class/_class/locale.class.php on line 69
+[11-Mar-2022 07:54:29 America/Bogota] PHP Warning:  chr() expects parameter 1 to be int, string given in /home/sigesproph/public_html/class/vendor/tecnickcom/tcpdf/include/tcpdf_fonts.php on line 1671
+[11-Mar-2022 07:54:29 America/Bogota] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/sigesproph/public_html/class/html2pdf.class.php on line 1343

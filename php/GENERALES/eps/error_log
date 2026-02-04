@@ -1,0 +1,91 @@
+[29-Nov-2018 10:35:47 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[29-Nov-2018 10:38:30 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[25-Feb-2019 12:06:54 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:40:44 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:41:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:41:49 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:42:17 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:42:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:42:37 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:44:04 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:44:11 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:44:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:07 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:26 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:40 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:46:48 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:47:01 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:47:11 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 11:47:15 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[26-Feb-2019 16:59:53 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:04:33 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:04:33 America/Bogota] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=17509 in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:04:33 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:04:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-Jul-2019 15:09:09 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:22:10 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:22:58 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:24:49 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:26:02 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:56:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:56:51 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:57:02 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 14:58:54 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:00:58 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:01:08 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:01:25 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:47:44 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:47:58 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:51:28 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:52:32 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:04 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:04 America/Bogota] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=19252 in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:04 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:09 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:43 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:40:27 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:42:01 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:43:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:44:13 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:44:28 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:45:10 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:45:30 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:25:27 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:15 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:35 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:55 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:58 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:58 America/Bogota] PHP Warning:  mysql_connect(): Error while reading greeting packet. PID=4530 in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 16:27:58 America/Bogota] PHP Warning:  mysql_connect(): MySQL server has gone away in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[05-Aug-2019 11:14:17 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 07:59:46 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 08:27:03 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 08:31:46 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:01:18 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:19:55 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 09:37:10 America/Bogota] PHP Warning:  mysql_connect(): Conexi�n rehusada in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[06-Aug-2019 10:07:18 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:10:46 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[12-Aug-2019 09:12:07 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:19:27 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(./class.lista.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(): Failed opening './class.lista.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(./class.complex.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(): Failed opening './class.complex.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(./class.consulta.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(): Failed opening './class.consulta.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(./class.paginacion.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:30 UTC] PHP Warning:  include_once(): Failed opening './class.paginacion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:30 UTC] PHP Fatal error:  Class 'consulta' not found in /home/sigesproph/public_html/class/class.querybasedatos.php on line 111
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(./class.lista.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(): Failed opening './class.lista.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(./class.complex.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(): Failed opening './class.complex.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(./class.consulta.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(): Failed opening './class.consulta.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(./class.paginacion.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:45 UTC] PHP Warning:  include_once(): Failed opening './class.paginacion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:45 UTC] PHP Fatal error:  Class 'consulta' not found in /home/sigesproph/public_html/class/class.querybasedatos.php on line 111

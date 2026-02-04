@@ -1,0 +1,7 @@
+[19-Feb-2018 16:56:53 America/Bogota] PHP Warning:  Creating default object from empty value in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 120
+[19-Feb-2018 16:59:40 America/Bogota] PHP Warning:  Creating default object from empty value in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 120
+[19-Feb-2018 17:00:45 America/Bogota] PHP Warning:  Creating default object from empty value in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 120
+[19-Feb-2018 17:01:55 America/Bogota] PHP Warning:  Creating default object from empty value in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 120
+[19-Feb-2018 17:30:28 America/Bogota] PHP Warning:  Creating default object from empty value in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 154
+[19-Feb-2018 17:38:48 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 104
+[19-Feb-2018 17:38:48 America/Bogota] PHP Fatal error:  Call to a member function save() on a non-object in /home/software/sevicol.programing.com.co/php/reporte/diario_editar.php on line 141

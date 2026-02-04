@@ -1,0 +1,71 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header('Content-Type: application/json');
+
+require_once('../../config/start.inc.php');
+include_once('../../class/class.lista.php');
+include_once('../../class/class.complex.php');
+include_once('../../class/class.consulta.php');
+
+$id = ( isset( $_REQUEST['id'] ) ? $_REQUEST['id'] : '' );
+
+$query = 'SELECT D.*, DATE_FORMAT(D.Fecha_Actual, "%d/%m/%Y") as Fecha_Dis, CONCAT(F.Nombres, " ",  F.Apellidos) as Funcionario, P.Nombre as Punto_Dispensacion, P.Direccion as Direccion_Punto, P.Telefono Telefono_Punto, L.Nombre as Departamento, CONCAT(Paciente.Primer_Nombre," ",Paciente.Segundo_Nombre," ",Paciente.Primer_Apellido, " ", Paciente.Segundo_Apellido) as Nombre_Paciente , Paciente.EPS, Paciente.Direccion as Direccion_Paciente, R.Nombre as Regimen_Paciente, Paciente.Id_Paciente
+          FROM Dispensacion D
+          INNER JOIN Funcionario F
+          on D.Identificacion_Funcionario=F.Identificacion_Funcionario
+          INNER JOIN Punto_Dispensacion P
+          on D.Id_Punto_Dispensacion=P.Id_Punto_Dispensacion
+          INNER JOIN Departamento L
+          on P.Departamento=L.Id_Departamento
+          INNER JOIN Paciente
+          on D.Numero_Documento = Paciente.Id_Paciente
+          INNER JOIN Regimen R
+          on Paciente.Id_Regimen = R.Id_Regimen
+          WHERE D.Id_Dispensacion =  '.$id;
+
+$oCon= new consulta();
+$oCon->setQuery($query);
+//$oCon->setTipo('Multiple');
+$dis = $oCon->getData();
+unset($oCon);
+
+$query2 = 'SELECT PD.*, CONCAT_WS(" ",
+            Producto.Nombre_Comercial,
+            Producto.Presentacion,
+            Producto.Concentracion, " (",
+            Producto.Principio_Activo,") ",
+            Producto.Cantidad,
+            Producto.Unidad_Medida) as Nombre_Producto
+          FROM Producto_Dispensacion as PD 
+          INNER JOIN Producto 
+          on Producto.Id_Producto=PD.Id_Producto
+          WHERE PD.Id_Dispensacion =  '.$id ;
+
+
+$oCon= new consulta();
+$oCon->setQuery($query2);
+$oCon->setTipo('Multiple');
+$productos = $oCon->getData();
+unset($oCon);
+
+$query3 = 'SELECT AD.Identificacion_Funcionario, AD.Fecha, AD.Detalle, AD.Estado, CONCAT(F.Nombres," ",F.Apellidos) as Nombre, F.Imagen 
+            FROM Actividades_Dispensacion AD
+            INNER JOIN Funcionario F
+            ON AD.Identificacion_Funcionario=F.Identificacion_Funcionario
+            WHERE AD.Id_Dispensacion=  '.$id ;
+
+
+$oCon= new consulta();
+$oCon->setQuery($query3);
+$oCon->setTipo('Multiple');
+$acti = $oCon->getData();
+unset($oCon);
+
+$resultado["Datos"]=$dis;
+$resultado["Productos"]=$productos;
+$resultado["AcDispensacion"]=$acti;
+
+echo json_encode($resultado);
+
+?>

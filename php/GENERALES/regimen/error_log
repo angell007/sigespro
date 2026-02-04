@@ -1,0 +1,5 @@
+[31-Mar-2020 13:54:52 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[01-Jun-2020 07:05:37 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[01-Jun-2020 07:05:37 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[01-Jun-2020 07:06:20 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[01-Jun-2020 07:06:30 America/Bogota] PHP Warning:  mysql_connect(): Too many connections in /home/sigesproph/public_html/class/class.consulta.php on line 15

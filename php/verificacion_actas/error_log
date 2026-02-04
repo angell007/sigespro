@@ -1,0 +1,2 @@
+[16-Apr-2020 11:16:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[22-May-2020 10:47:52 America/Bogota] PHP Warning:  mysql_query(): Unable to save result set in /home/sigesproph/public_html/class/class.consulta.php on line 17

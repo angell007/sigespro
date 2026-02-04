@@ -1,0 +1,18 @@
+[23-Jul-2019 09:24:53 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:24:54 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:24:54 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[23-Jul-2019 09:25:35 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[29-Jul-2019 15:51:41 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[30-Jul-2019 10:39:35 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.dao.php on line 48
+[30-Jul-2019 10:39:35 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigesproph/public_html/class/class.dao.php on line 77
+[30-Jul-2019 10:39:35 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.dao.php on line 48
+[30-Jul-2019 10:39:35 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigesproph/public_html/class/class.dao.php on line 64
+[15-Aug-2019 09:01:17 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:10:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:10:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:10:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[15-Aug-2019 09:10:23 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.consulta.php on line 15
+[26-Aug-2019 15:19:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.dao.php on line 48
+[26-Aug-2019 15:19:34 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigesproph/public_html/class/class.dao.php on line 77
+[26-Aug-2019 15:19:34 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigesproph/public_html/class/class.dao.php on line 48
+[26-Aug-2019 15:19:34 America/Bogota] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/sigesproph/public_html/class/class.dao.php on line 64

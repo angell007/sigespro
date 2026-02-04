@@ -1,0 +1,123 @@
+[28-Jul-2020 05:57:45 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:04:47 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:06:10 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:08:38 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:09:03 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:09:22 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:34:59 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:49:08 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[28-Jul-2020 06:56:45 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>:  in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('tls://westcentra&hellip;', 10, Array)</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php:332</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_Adapter_Socket->connect()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:29:58 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:30:20 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:30:47 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:35:19 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_MessageException</b>: Request timed out due to default_socket_timeout php.ini setting in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php</b> on line <b>192</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->checkTimeout()</td><td>/home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php:192</td></tr>
+<tr><td style="text-align: center;">1</td><td>HTTP_Request2_SocketWrapper->readLine(16384, null)</td><td>/home/sigespro/public_html/php/ac in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 294
+[31-Jul-2020 15:36:05 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:38:21 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:39:25 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:45:47 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:48:08 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134
+[31-Jul-2020 15:50:16 America/Bogota] PHP Fatal error:  Uncaught <table style="border: 1px" cellspacing="0">
+<tr><td colspan="3" style="background: #ff9999"> <b>HTTP_Request2_ConnectionException</b>: Unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443. Error: stream_socket_client(): unable to connect to tls://westcentralus.api.cognitive.microsoft.com:443 (Unknown error)
+stream_socket_client(): Failed to enable crypto
+stream_socket_client(): SSL: Handshake timed out in <b>/home/sigespro/public_html/php/acceso/HTTP/Request2/Adapter/Socket.php</b> on line <b>332</b></td></tr>
+<tr><td colspan="3" style="background-color: #aaaaaa; text-align: center; font-weight: bold;">Exception trace</td></tr>
+<tr><td style="text-align: center; background: #cccccc; width:20px; font-weight: bold;">#</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Function</td><td style="text-align: center; background: #cccccc; font-weight: bold;">Location</td></tr>
+<tr><td style="text-align: center;">0</td><td>HTTP_Request2_SocketWrapper->__construct('t in /home/sigespro/public_html/php/acceso/HTTP/Request2/SocketWrapper.php on line 134

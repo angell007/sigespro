@@ -1,0 +1,17 @@
+[10-Jul-2020 14:04:07 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigespro/public_html/php/contabilidad/libroauxiliar/descargar_excel.php on line 72
+[28-Oct-2020 10:42:33 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7620): TCPDF->Error('Some data has a...')
+#1 /home/sigespro/public_html/class/html2pdf.class.php(396): TCPDF->Output('.pdf', 'I')
+#2 /home/sigespro/public_html/php/contabilidad/libroauxiliar/descarga_pdf.php(337): HTML2PDF->Output('.pdf')
+#3 {main}
+  thrown in /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[06-Nov-2020 10:05:16 America/Bogota] PHP Parse error:  syntax error, unexpected '}' in /home/sigespro/public_html/php/contabilidad/libroauxiliar/funciones.php on line 89
+[06-Nov-2020 10:05:34 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'TCPDF ERROR: Some data has already been output, can't send PDF file' in /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php:2927
+Stack trace:
+#0 /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php(7620): TCPDF->Error('Some data has a...')
+#1 /home/sigespro/public_html/class/html2pdf.class.php(396): TCPDF->Output('.pdf', 'I')
+#2 /home/sigespro/public_html/php/contabilidad/libroauxiliar/descarga_pdf.php(354): HTML2PDF->Output('.pdf')
+#3 {main}
+  thrown in /home/sigespro/public_html/class/vendor/tecnickcom/tcpdf/tcpdf.php on line 2927
+[06-Nov-2020 10:05:37 America/Bogota] PHP Parse error:  syntax error, unexpected ':' in /home/sigespro/public_html/php/contabilidad/libroauxiliar/funciones.php on line 67

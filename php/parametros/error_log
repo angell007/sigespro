@@ -1,0 +1,2 @@
+[15-Aug-2019 22:44:44 UTC] PHP Parse error:  syntax error, unexpected '$oItem' (T_VARIABLE) in /home/sigesproph/public_html/php/parametros/guardar_param_cert_ingreso_ret.php on line 53
+[16-Aug-2019 11:15:52 America/Bogota] PHP Fatal error:  [] operator not supported for strings in /home/sigesproph/public_html/php/parametros/lista_parametros_cert_ingreso_ret.php on line 46

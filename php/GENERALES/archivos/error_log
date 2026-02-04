@@ -1,0 +1,2 @@
+[25-Apr-2018 15:16:08 America/Bogota] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 81 bytes) in /home/software/sevicol.programing.com.co/class/class.dao.php on line 83
+[23-May-2018 15:05:02 America/Bogota] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 84 bytes) in /home/software/sevicol.programing.com.co/class/class.dao.php on line 83

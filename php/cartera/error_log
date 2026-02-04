@@ -1,0 +1,12 @@
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  include_once(../class/class.complex.php): failed to open stream: No such file or directory in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 7
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  include_once(): Failed opening '../class/class.complex.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 7
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  include_once(../class/class.consulta.php): failed to open stream: No such file or directory in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 8
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  include_once(): Failed opening '../class/class.consulta.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 8
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sigespro/public_html/php/cartera/edades_cartera_doc.php:7) in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 11
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sigespro/public_html/php/cartera/edades_cartera_doc.php:7) in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 12
+[04-Jun-2021 21:16:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sigespro/public_html/php/cartera/edades_cartera_doc.php:7) in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 13
+[04-Jun-2021 21:16:29 UTC] PHP Fatal error:  Uncaught Error: Class 'consulta' not found in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php:336
+Stack trace:
+#0 /home/sigespro/public_html/php/cartera/edades_cartera_doc.php(19): getFacturas(890985122)
+#1 {main}
+  thrown in /home/sigespro/public_html/php/cartera/edades_cartera_doc.php on line 336

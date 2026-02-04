@@ -1,0 +1,450 @@
+[11-Mar-2022 08:52:37 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[11-Mar-2022 12:00:17 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[11-Mar-2022 12:01:42 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[11-Mar-2022 15:51:48 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[12-Mar-2022 10:34:11 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[14-Mar-2022 10:44:43 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[14-Mar-2022 10:47:57 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[14-Mar-2022 15:29:35 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 09:54:05 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 10:00:27 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 10:18:04 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 15:11:35 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 15:18:11 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[15-Mar-2022 16:07:14 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[17-Mar-2022 10:46:20 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[17-Mar-2022 10:47:10 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[17-Mar-2022 11:28:58 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[17-Mar-2022 15:14:15 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[18-Mar-2022 10:31:56 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[18-Mar-2022 10:53:41 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[18-Mar-2022 10:53:45 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[18-Mar-2022 11:16:33 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[18-Mar-2022 15:38:52 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[19-Mar-2022 12:35:56 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 08:35:28 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 08:52:00 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 13:52:14 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 14:57:36 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 14:58:24 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 16:19:44 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 16:29:03 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[22-Mar-2022 16:30:42 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 08:14:48 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 08:14:56 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 09:09:18 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 10:17:39 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 13:45:18 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[23-Mar-2022 16:23:15 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[24-Mar-2022 14:05:22 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[24-Mar-2022 14:17:33 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[24-Mar-2022 16:23:38 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:04:33 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:10:50 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:13:19 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:33:41 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:52:57 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:53:16 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 08:55:46 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 15:37:19 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65
+[25-Mar-2022 15:46:23 America/Bogota] PHP Fatal error:  Uncaught InvalidArgumentException: Found 1 error while validating the input provided for the HeadObject operation:
+[Key] expected string length to be >= 1, but found string length of 0 in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php:65
+Stack trace:
+#0 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Middleware.php(78): Aws\Api\Validator->validate('HeadObject', Object(Aws\Api\StructureShape), Array)
+#1 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(566): Aws\Middleware::Aws\{closure}(Object(Aws\Command), NULL)
+#2 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(589): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#3 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(523): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#4 /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/S3/S3Client.php(542): Aws\S3\S3Client::Aws\S3\{closure}(Object(Aws\Command), NULL)
+#5 /home/sigesproph/public_html/vend in /home/sigesproph/public_html/vendor/aws/aws-sdk-php/src/Api/Validator.php on line 65

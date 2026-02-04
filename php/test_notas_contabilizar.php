@@ -1,0 +1,50 @@
+<?php
+
+ini_set("memory_limit","32000M");
+ini_set('max_execution_time', 0);
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL); 
+
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+//header('Content-Type: application/json');
+require_once('../class/class.configuracion.php');
+include_once('../class/class.consulta.php');
+include_once('../class/class.complex.php');
+include_once('../class/class.contabilizar.php');
+include_once('./notas_credito_nuevo/helper_consecutivo.php');
+
+
+$notas= getNotas();
+
+//var_dump($notas); exit;
+
+echo "<table><tr><td>#</td><td>NOTA CREDITO</td><td>ESTADO</td></tr>";
+
+$i=0;
+foreach($notas as $datos){ $i++;
+        $datos['Id_Registro']=$datos['Id_Nota_Credito_Global'];
+        $datos['Tipo_Factura']= trim(str_replace('_'," ",$datos['Tipo_Factura']));
+        $datos['Nit'] = $datos['Id_Cliente'];
+        
+        //var_dump($datos); exit;
+        $contabilizar = new Contabilizar();
+        $contabilizar->CrearMovimientoContable('Nota Credito Global',$datos);
+        unset($contabilizar); 
+        echo "<tr><td>".$i."</td><td>".$datos['Codigo']."</td><td>CONTABILIZADO</td></tr>";
+}
+echo "</table>";
+
+function getNotas(){
+    $query='SELECT * FROM Nota_Credito_Global WHERE Observaciones ="AUTOMATICO - Nota Credito Total por ERROR DE FACTURACION" ;';
+    $oCon = new consulta();
+    $oCon->setQuery($query);
+    $oCon->setTipo('Multiple');
+    $fras= $oCon->getData();
+    unset($oCon);
+    
+    return $fras;
+}

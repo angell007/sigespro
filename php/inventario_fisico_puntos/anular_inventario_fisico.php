@@ -1,0 +1,31 @@
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header('Content-Type: application/json');
+
+require_once('../../config/start.inc.php');
+include_once('../../class/class.lista.php');
+include_once('../../class/class.complex.php');
+include_once('../../class/class.consulta.php');
+
+$id = ( isset( $_REQUEST['id'] ) ? $_REQUEST['id'] : false );
+
+if ($id) {
+    
+    $oItem= new complex("Inventario_Fisico_Punto","Id_Inventario_Fisico_Punto",$id);
+    $oItem->Estado = "Anulada";
+    $oItem->save();
+    unset($oItem);
+    
+    $resultado["tipo"]="success";
+    $resultado["titulo"]="Exito!";
+    $resultado["mensaje"]="Se ha anulado correctamente el inventario.";
+} else {
+    $resultado["tipo"]="error";
+    $resultado["titulo"]="Ooops!";
+    $resultado["mensaje"]="Ha ocurrido un error inesperado.";
+}
+
+
+echo json_encode($resultado);
+?>

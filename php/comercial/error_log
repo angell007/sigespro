@@ -1,0 +1,1 @@
+[09-Nov-2020 14:41:47 America/Bogota] PHP Warning:  mysqli_query(): (21000/1242): Subquery returns more than 1 row in /home/sigespro/public_html/class/class.consulta.php on line 25

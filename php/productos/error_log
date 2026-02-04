@@ -1,0 +1,50 @@
+[10-Mar-2020 08:44:25 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[10-Mar-2020 08:44:25 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:41:51 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[11-Mar-2020 14:42:07 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[03-Apr-2020 12:47:01 America/Bogota] PHP Warning:  mysql_query(): Unable to save result set in /home/sigespro/public_html/class/class.consulta.php on line 17
+[03-Apr-2020 12:47:01 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[16-Apr-2020 11:16:44 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[22-May-2020 10:47:53 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[22-May-2020 10:48:01 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[22-May-2020 10:48:06 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 15
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:13 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:47:20 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[15-Sep-2020 11:48:02 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:03 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140
+[09-Nov-2020 14:53:32 America/Bogota] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/sigespro/public_html/php/productos/producto_guardar.php on line 140

@@ -1,0 +1,1 @@
+[03-Aug-2020 11:23:54 America/Bogota] PHP Warning:  mysql_connect(): No existe el fichero o el directorio in /home/sigespro/public_html/class/class.consulta.php on line 16

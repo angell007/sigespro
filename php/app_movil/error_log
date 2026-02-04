@@ -1,0 +1,7 @@
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  scandir(/home/sigesproph/public_html/DOCUMENTOS/1098755611): failed to open dir: No existe el fichero o el directorio in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 26
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  scandir(): (errno 2): No existe el fichero o el directorio in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 26
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  scandir(/home/sigesproph/public_html/DOCUMENTOS/1098755611): failed to open dir: No existe el fichero o el directorio in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 27
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  scandir(): (errno 2): No existe el fichero o el directorio in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 27
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  array_diff(): Argument #1 is not an array in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 27
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 28
+[28-Sep-2020 09:06:32 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/sigesproph/public_html/php/app_movil/listar_documentos_funcionario.php on line 30

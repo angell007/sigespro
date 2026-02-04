@@ -1,0 +1,24 @@
+[03-Dec-2018 07:55:33 America/Bogota] PHP Warning:  mysql_query(): MySQL server has gone away in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 17
+[03-Dec-2018 07:55:33 America/Bogota] PHP Warning:  mysql_query(): Error reading result set's header in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 17
+[03-Dec-2018 07:55:33 America/Bogota] PHP Warning:  mysql_query(): MySQL server has gone away in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 17
+[03-Dec-2018 07:55:33 America/Bogota] PHP Warning:  mysql_query(): Error reading result set's header in /home/o3qy25y1d4cd/public_html/class/class.consulta.php on line 17
+[03-Dec-2018 07:56:08 America/Bogota] PHP Fatal error:  Call to undefined function SetCondiciones() in /home/o3qy25y1d4cd/public_html/php/puntodispensacion/detalle_punto_dispensacion.php on line 11
+[03-Dec-2018 07:56:08 America/Bogota] PHP Fatal error:  Call to undefined function SetCondiciones() in /home/o3qy25y1d4cd/public_html/php/puntodispensacion/detalle_punto_dispensacion.php on line 11
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.lista.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.lista.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.complex.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.complex.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.consulta.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.consulta.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.paginacion.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.paginacion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:47 UTC] PHP Fatal error:  Class 'consulta' not found in /home/sigesproph/public_html/class/class.querybasedatos.php on line 111
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.lista.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.lista.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 3
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.complex.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.complex.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 4
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.consulta.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.consulta.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 5
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(./class.paginacion.php): failed to open stream: No such file or directory in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:47 UTC] PHP Warning:  include_once(): Failed opening './class.paginacion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sigesproph/public_html/class/class.querybasedatos.php on line 6
+[04-Jan-2020 19:55:47 UTC] PHP Fatal error:  Class 'consulta' not found in /home/sigesproph/public_html/class/class.querybasedatos.php on line 111
