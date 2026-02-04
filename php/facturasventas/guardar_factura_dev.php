@@ -72,6 +72,15 @@ $sector_salud = isset($_REQUEST['sector_salud']) ? filter_var($_REQUEST['sector_
 $fecha_inicio_periodo_facturacion = isset($_REQUEST['fecha_inicio_periodo_facturacion']) ? trim($_REQUEST['fecha_inicio_periodo_facturacion']) : '';
 $fecha_fin_periodo_facturacion = isset($_REQUEST['fecha_fin_periodo_facturacion']) ? trim($_REQUEST['fecha_fin_periodo_facturacion']) : '';
 
+logError('Error al decodificar JSON', [
+    'error' => $e->getMessage(),
+    'encabezadoFactura' => substr($encabezadoFactura_raw, 0, 200),
+    'productosFactura' => substr($productosFactura_raw, 0, 200),
+    'datos_dis' => substr($datos_dis_raw, 0, 200)
+]);
+
+exit;
+
 $id_factura_asociada = '';
 
 // Decodificar JSON con validación
