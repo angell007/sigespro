@@ -228,7 +228,7 @@ function getXml($aplication_response, $cufe, $xml_factura, $cliente)
     <cac:PartyTaxScheme>
     <cbc:RegistrationName>' . $cliente["Nombre"] . '</cbc:RegistrationName>
     <cbc:CompanyID schemeName="31" schemeID="' . $cliente["Digito_Verificacion"] . '" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeAgencyID="195">' . $cliente["Id_Cliente"] . '</cbc:CompanyID>
-    <cbc:TaxLevelCode listName="48">R‐99‐PN</cbc:TaxLevelCode>
+    <cbc:TaxLevelCode listName="48">R-99-PN</cbc:TaxLevelCode>
     <cac:TaxScheme/> 
     </cac:PartyTaxScheme> 
     </cac:ReceiverParty>
