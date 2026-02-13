@@ -2,6 +2,8 @@
 //error_reporting(-1);
 //ini_set('error_reporting', E_ALL);
 
+ob_start();
+
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
 //header('Content-Type: application/json');
@@ -87,7 +89,8 @@ if (strpos($tipo, "Factura") !== false) {
     // Leer y mostrar el archivo XML de la factura
     $xml_file_path = getXml($aplication_response, $factura['Cufe'], $xml_factura, $cliente);
 
-    // Establecer la cabecera para la descarga automática
+    // Descartar cualquier salida previa antes de enviar headers de descarga
+    ob_end_clean();
     header('Content-Type: application/xml');
     header('Content-Disposition: attachment; filename="' . basename($xml_file_path) . '"');
 
@@ -154,7 +157,8 @@ if (strpos($tipo, "Factura") !== false) {
     // Leer y mostrar el archivo XML de la factura
     $xml_file_path = getXml($aplication_response, $factura['Cude'], $xml_factura, $cliente);
 
-    // Establecer la cabecera para la descarga automática
+    // Descartar cualquier salida previa antes de enviar headers de descarga
+    ob_end_clean();
     header('Content-Type: application/xml');
     header('Content-Disposition: attachment; filename="' . basename($xml_file_path) . '"');
 
